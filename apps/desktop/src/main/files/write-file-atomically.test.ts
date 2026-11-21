@@ -71,10 +71,10 @@ describe('writeFileAtomically', () => {
     }
 
     expect(readFileSync(file, 'utf8')).toBe('saved');
-    expect(order).toEqual(
-      process.platform === 'win32'
-        ? ['file flushed', 'renamed']
-        : ['file flushed', 'renamed', 'folder flushed'],
+    expect(order.slice(0, 2)).toEqual(['file flushed', 'renamed']);
+    // Some Windows versions cannot open a folder; where one opens, its flush comes last.
+    expect(order.slice(2)).toEqual(
+      order.length > 2 || process.platform !== 'win32' ? ['folder flushed'] : [],
     );
   });
 
