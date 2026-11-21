@@ -1,0 +1,15 @@
+{
+  "name": "@pod/adapter-printful",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Printful adapters: catalog products, print areas and mockup generation.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0"
+  }
+}

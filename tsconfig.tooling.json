@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "node_modules/.cache/tsc-tooling",
+    "tsBuildInfoFile": "node_modules/.cache/tsc-tooling/.tsbuildinfo",
+    "types": ["node"],
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "vitest.config.ts",
+    "playwright.config.ts",
+    "scripts/**/*.ts",
+    "packages/*/vitest.config.ts",
+    "apps/desktop/vitest.config.ts",
+    "apps/ui/vitest.config.ts"
+  ]
+}

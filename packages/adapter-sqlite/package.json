@@ -1,0 +1,15 @@
+{
+  "name": "@pod/adapter-sqlite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SQLite persistence for the catalog, built on node:sqlite.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/core": "0.1.0",
+    "@pod/rules": "0.1.0"
+  }
+}

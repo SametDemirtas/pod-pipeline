@@ -1,0 +1,24 @@
+{
+  "name": "@pod/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Domain model, ports and use cases. Has no infrastructure dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./testing": "./src/testing/index.ts",
+    "./testing/contract": "./src/testing/contract/index.ts"
+  },
+  "dependencies": {
+    "@pod/rules": "0.1.0"
+  },
+  "peerDependencies": {
+    "vitest": "5.0.5"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    }
+  }
+}

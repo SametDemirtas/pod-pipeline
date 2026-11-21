@@ -1,0 +1,212 @@
+{
+  "language": "pt",
+  "version": 1,
+  "foldDiacritics": false,
+  "patterns": [
+    {
+      "id": "pt-nao-apenas",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:não (?:é )?(?:apenas|só)[^.!?\\n]{1,60}?(?:mas|como) também)(?![\\p{L}])",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Denies a claim nobody made so the real one sounds bigger.",
+      "example": "Esta caneca não é apenas prática, mas também elegante.",
+      "rewrite": "Uma caneca de 325 ml com uma raposa dos dois lados."
+    },
+    {
+      "id": "pt-mais-do-que",
+      "kind": "phrase",
+      "match": "mais do que um simples",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Lifts the item above what it is.",
+      "example": "Mais do que um simples moletom, um estilo de vida.",
+      "rewrite": "Um moletom cinza com uma montanha no peito."
+    },
+    {
+      "id": "pt-seja-para",
+      "kind": "phrase",
+      "match": "seja para … ou",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "why": "Lists imagined uses instead of the item.",
+      "example": "Seja para o café ou para o chá, esta caneca é para você.",
+      "rewrite": "Uma caneca para café ou chá."
+    },
+    {
+      "id": "pt-mergulhe",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:mergulhe (?:em|no|na|nos|nas))(?![\\p{L}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Calque of dive into.",
+      "example": "Mergulhe no universo dos cogumelos.",
+      "rewrite": "Um pôster com sete tipos de cogumelos."
+    },
+    {
+      "id": "pt-eleve",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:eleve (?:o )?seu|eleve a sua|ao próximo nível)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Empty promise of improvement.",
+      "example": "Eleve seu estilo ao próximo nível.",
+      "rewrite": "Uma camiseta com um sol retrô."
+    },
+    {
+      "id": "pt-companheiro-ideal",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:o|seu) companheiro ideal|a combinação perfeita)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Stock phrase that fits any product.",
+      "example": "O companheiro ideal para o seu dia.",
+      "rewrite": "Para o café no escritório."
+    },
+    {
+      "id": "pt-toque-de",
+      "kind": "phrase",
+      "match": "um toque de",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Vague addition of magic or charm.",
+      "example": "Dê um toque de magia à sua cozinha.",
+      "rewrite": "Uma pequena bruxa numa vassoura.",
+      "falsePositives": ["Tecido macio ao toque."]
+    },
+    {
+      "id": "pt-testemunho",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:é|um) testemunho d[eoa]s?|desempenha um papel|serve como)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Gives the item a meaning instead of showing it.",
+      "example": "Este pôster é um testemunho do seu amor por viagens.",
+      "rewrite": "Este pôster mostra um mapa-múndi em tons pastel."
+    },
+    {
+      "id": "pt-feito-a-mao",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:feit[oa]s? à mão|artesana(?:l|is)|feit[oa]s? com amor)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "The item is printed to order, not made by hand.",
+      "example": "Uma caneca feita à mão para a sua mesa.",
+      "rewrite": "Uma caneca impressa para a sua mesa.",
+      "falsePositives": ["Feita sob encomenda."]
+    },
+    {
+      "id": "pt-desenhado-a-mao",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:pintad|desenhad)[oa]s? à mão)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Can be true of the original artwork, so it counts only next to other signs.",
+      "example": "Um girassol desenhado à mão.",
+      "rewrite": "Um girassol em traço fino.",
+      "falsePositives": ["Uma bolsa de mão pintada de azul."]
+    },
+    {
+      "id": "pt-vale-ressaltar",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:vale (?:a pena )?ressaltar|cabe ressaltar|é importante salientar|nesse sentido)(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Announces a point instead of making it.",
+      "example": "Vale ressaltar que a estampa não desbota.",
+      "rewrite": "A estampa não desbota na máquina de lavar louça."
+    },
+    {
+      "id": "pt-alem-disso",
+      "kind": "regex",
+      "match": "(?<=^|[.!?]\\s+|\\n)além disso,",
+      "category": "filler",
+      "precision": "medium",
+      "why": "Essay connector a shop owner rarely uses.",
+      "example": "Além disso, é um ótimo presente.",
+      "rewrite": "Também existe em branco.",
+      "falsePositives": ["Vai além disso no tamanho GG."]
+    },
+    {
+      "id": "pt-chat",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:espero ter ajudado|aqui está (?:o seu|seu|a sua) (?:anúncio|texto))(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Words meant for the person who asked, not the buyer.",
+      "example": "Aqui está o seu anúncio da caneca de fantasma.",
+      "rewrite": "Uma caneca com três fantasminhas."
+    },
+    {
+      "id": "pt-qualquer-ocasiao",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:perfeit[oa] para qualquer ocasião)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Fits everything, so says nothing.",
+      "example": "Uma estampa alegre, perfeita para qualquer ocasião.",
+      "rewrite": "Uma estampa alegre para a cozinha ou o corredor."
+    },
+    {
+      "id": "pt-tirar-o-folego",
+      "kind": "phrase",
+      "match": "de tirar o fôlego",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Big praise with nothing behind it.",
+      "example": "Um design de tirar o fôlego.",
+      "rewrite": "Cada pena da coruja é desenhada em traço fino."
+    },
+    {
+      "id": "pt-deslumbrante",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:deslumbrante\\p{L}*|encantador\\p{L}*|fascinante\\p{L}*|imperdíve(?:l|is)|perfeit[oa]s?)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Opinion words; Etsy asks to keep these out of the title.",
+      "example": "Caneca perfeita e deslumbrante de Natal",
+      "rewrite": "Caneca de Natal com renas"
+    },
+    {
+      "id": "pt-atemporal",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:atempora(?:l|is)|indispensáve(?:l|is))(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Stock praise that fits any product.",
+      "example": "Uma peça atemporal e indispensável.",
+      "rewrite": "Um pôster preto e branco de uma bicicleta dos anos 50."
+    },
+    {
+      "id": "pt-vibrante",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?<!(?:cores|tons) )vibrantes?(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Common AI word unless it describes colours.",
+      "example": "Um design vibrante para uma alma vibrante.",
+      "rewrite": "Uma estampa de limões amarelos.",
+      "falsePositives": ["Impressa em cores vibrantes."]
+    },
+    {
+      "id": "pt-ultimas-unidades",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:últimas unidades|estoque limitado|por tempo limitado|não perca tempo|corra e garanta)(?![\\p{L}])",
+      "category": "urgency",
+      "precision": "high",
+      "why": "Printed to order, so it never runs out.",
+      "example": "Últimas unidades, não perca tempo!",
+      "rewrite": "Cada peça é impressa quando você faz o pedido."
+    },
+    {
+      "id": "pt-garanta-o-seu",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:garanta (?:já )?(?:o )?(?:seu|sua)|peça já o seu)(?![\\p{L}])",
+      "category": "cliche-closer",
+      "precision": "high",
+      "why": "Closing sales line that adds nothing.",
+      "example": "Garanta já o seu e surpreenda-se.",
+      "rewrite": "Pode ir à máquina de lavar louça."
+    }
+  ]
+}

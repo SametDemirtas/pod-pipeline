@@ -1,0 +1,970 @@
+{
+  "language": "nl",
+  "version": 1,
+  "patterns": [
+    {
+      "id": "nl-chat-residue",
+      "kind": "regex",
+      "match": "(?:(?:^|[.!?:]\\s+|\\n\\s*)(?:natuurlijk|zeker|uiteraard|absoluut|graag)\\s*[!,.]\\s*(?:hier\\s+is|hieronder|ik\\s+help)|(?<![\\p{L}\\p{N}])hier\\s+is\\s+(?:een|je|jouw|uw)\\s+(?:[\\p{L}-]+\\s+){0,2}(?:productbeschrijving|productomschrijving|beschrijving|tekst|versie|omschrijving)|(?<![\\p{L}\\p{N}])ik\\s+hoop\\s+dat\\s+(?:dit|deze|het)\\s+(?:helpt|je\\s+helpt|u\\s+helpt|nuttig)|(?<![\\p{L}\\p{N}])laat\\s+(?:het\\s+)?(?:me|mij)\\s+(?:gerust\\s+)?weten\\s+als\\s+(?:je|u)|(?<![\\p{L}\\p{N}])als\\s+(?:ai|een\\s+ai|taalmodel|ai-taalmodel))(?![\\p{L}\\p{N}])",
+      "category": "structure",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Chatbot wrapper text (\"Sure! Here is…\", \"I hope this helps\") pasted into the listing together with the copy.",
+      "example": "Natuurlijk! Hier is een productbeschrijving voor je mok:",
+      "rewrite": "Witte mok van 330 ml met een tekening van een slapende kat.",
+      "falsePositives": [
+        "Natuurlijk kun je de mok gewoon in de vaatwasser doen.",
+        "Hier is de maattabel: S, M, L en XL.",
+        "Laat het ons weten als je een andere kleur wilt."
+      ]
+    },
+    {
+      "id": "nl-placeholder",
+      "kind": "regex",
+      "match": "\\[(?:naam|jouw|uw|je|winkelnaam|merknaam|product|productnaam|bedrijfsnaam|prijs|datum|aantal)[\\p{L}\\s-]{0,30}\\]",
+      "category": "structure",
+      "precision": "high",
+      "evidence": "reasoning",
+      "why": "An unfilled template slot such as [winkelnaam] or [jouw naam] left in the generated text.",
+      "example": "Deze mok van [winkelnaam] is gemaakt van wit keramiek.",
+      "rewrite": "Deze mok van Studio Lotte is gemaakt van wit keramiek.",
+      "falsePositives": ["Kies je maat [S/M/L] in het menu.", "Prijs per stuk (excl. verzending)."]
+    },
+    {
+      "id": "nl-markdown-bold",
+      "kind": "regex",
+      "match": "\\*\\*[^*\\n]{1,80}\\*\\*",
+      "category": "structure",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Markdown bold from a chat window. Etsy and most shop systems show the asterisks as plain text.",
+      "example": "**Productdetails:** 100% katoen, wasbaar op 30 graden.",
+      "rewrite": "Productdetails: 100% katoen, wasbaar op 30 graden.",
+      "falsePositives": ["Let op: maat valt klein*", "*Alleen in Nederland en België."]
+    },
+    {
+      "id": "nl-markdown-heading",
+      "kind": "regex",
+      "match": "(?:^|\\n)\\s*#{1,6}\\s+\\p{L}",
+      "category": "structure",
+      "precision": "high",
+      "evidence": "reasoning",
+      "why": "Markdown heading syntax (## …) left over from chat output.",
+      "example": "## Waarom je deze tas wilt\nHij is ruim en stevig.",
+      "rewrite": "De tas is ruim en stevig.",
+      "falsePositives": ["Bestelnummer #1043 is verzonden.", "#tbt naar onze eerste kerstmarkt"]
+    },
+    {
+      "id": "nl-immersion-opener",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:stap|stapt|duik|duikt|reis\\s+mee)\\s+in\\s+(?:de|het)\\s+(?:[\\p{L}-]+\\s+){0,2}(?:wereld|universum|rijk)\\s+van|welkom\\s+in\\s+de\\s+(?:[\\p{L}-]+\\s+){0,2}wereld\\s+van|dompel\\s+(?:je|jezelf|u|uzelf)\\s+onder|(?:duik|duikt)\\s+(?:mee\\s+)?in\\s+de\\s+(?:magische|wondere|kleurrijke|betoverende|rijke|fascinerende)\\s+(?:wereld|sfeer))(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Calque of \"dive into / step into the world of / immerse yourself\". Empty scene-setting before the product is named.",
+      "example": "Duik in de wereld van retro gaming met dit pixel-art T-shirt!",
+      "rewrite": "T-shirt met een pixel-art print van een oude spelcomputer.",
+      "falsePositives": [
+        "Handig voor als je gaat duiken in de Zeeuwse wateren.",
+        "Wij verzenden naar de hele wereld, van Spanje tot Japan.",
+        "Welkom in onze winkel!"
+      ]
+    },
+    {
+      "id": "nl-laat-je-betoveren",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])laat\\s+(?:je|jezelf|u|uzelf)\\s+(?:betoveren|onderdompelen)(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Stock opener \"let yourself be enchanted\". Human shop copy uses \"laat je verrassen\" or \"laat u verleiden\", which this pattern leaves alone.",
+      "example": "Laat je betoveren door de dansende kleuren van het noorderlicht.",
+      "rewrite": "Fleece deken met een print van het noorderlicht in groen en paars.",
+      "falsePositives": [
+        "Laat u verleiden door onze huisgemaakte taarten.",
+        "Laat je verrassen: elke box is anders.",
+        "Laat je naam graveren op de achterkant."
+      ]
+    },
+    {
+      "id": "nl-stel-je-voor",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)stel\\s+(?:je|jezelf|u|uzelf)\\s+(?:eens\\s+)?voor\\s*[:,!]",
+      "category": "cliche-opener",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Staged run-up (\"Imagine:\") before any fact about the product.",
+      "example": "Stel je voor: een rustige zondagochtend en jouw favoriete mok in je handen.",
+      "rewrite": "Grote mok van 450 ml, handgedraaid en mat geglazuurd.",
+      "falsePositives": [
+        "Stel je vragen gerust via een bericht.",
+        "Ik stel me graag even voor: ik ben Anouk en ik haak sinds 2015."
+      ]
+    },
+    {
+      "id": "nl-introductie-van",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)(?:introductie\\s+van|introducing)(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Literal translation of \"Introducing our…\". Dutch shop copy just names the product.",
+      "example": "Introductie van onze nieuwe Maandagochtend-mok!",
+      "rewrite": "Nieuw: de Maandagochtend-mok.",
+      "falsePositives": [
+        "In de introductie van het boek staat een korte handleiding.",
+        "Nieuw in de winkel: kaarten met wilde bloemen."
+      ]
+    },
+    {
+      "id": "nl-omarm-je",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])omarm\\s+(?:je|jouw|uw|jezelf)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Calque of \"embrace your…\" (inner adventurer, style, curls). Not idiomatic in Dutch product copy.",
+      "example": "Omarm je innerlijke avonturier met dit bergen-T-shirt.",
+      "rewrite": "T-shirt met een lijntekening van de Alpen.",
+      "falsePositives": [
+        "De gemeente omarmt het plan voor een nieuwe markt.",
+        "Een knuffel om stevig vast te houden."
+      ]
+    },
+    {
+      "id": "nl-hoger-niveau",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])naar\\s+(?:(?:een\\s+)?(?:hoger|volgend|nieuw)|het\\s+volgende)\\s+(?:niveau|level)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Calque of \"take your X to the next level\". It never occurred in the human product copy we sampled, but it is common in Dutch business, sports and marketing writing, so it only counts with another sign.",
+      "example": "Til je koffiemomenten naar een hoger niveau met deze mok.",
+      "rewrite": "Een grote mok van 450 ml, zodat je koffie langer warm blijft.",
+      "falsePositives": [
+        "De plank hangt op een hoger niveau dan de bank.",
+        "Het tweede niveau van de cursus begint in maart.",
+        "Deze kunstenaar het volgende niveau van zijn werk laten zien kost tijd."
+      ]
+    },
+    {
+      "id": "nl-vleugje-abstract",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])vleugje\\s+(?:magie|elegantie|charme|luxe|glamour|verfijning|klasse|nostalgie|creativiteit|avontuur|romantiek|sprankeling|betovering|mysterie|persoonlijkheid|positiviteit|gezelligheid|vrolijkheid)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Calque of \"adds a touch of magic/elegance\". A vleugje of something abstract is AI filler; a vleugje kleur or zout is ordinary Dutch and is not matched.",
+      "example": "Deze mok voegt een vleugje elegantie toe aan je keuken.",
+      "rewrite": "Witte mok met een dunne gouden rand.",
+      "falsePositives": [
+        "De rand heeft een vleugje kleur.",
+        "Voeg een vleugje zout toe aan het deeg."
+      ]
+    },
+    {
+      "id": "nl-perfecte-metgezel",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:perfecte|ideale|ultieme|trouwe|vaste|onmisbare|beste|nieuwe)\\s+(?:\\p{L}+\\s+)?metgezel(?:len)?(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Calque of \"the perfect companion\" for an object such as a mug, bag or blanket.",
+      "example": "Deze deken is je perfecte metgezel op koude avonden.",
+      "rewrite": "Een warme fleece deken voor op de bank.",
+      "falsePositives": [
+        "Een boek over de metgezellen van koning Arthur.",
+        "Een vaste plek in de kast voor je mokken."
+      ]
+    },
+    {
+      "id": "nl-vangt-de-essentie",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:vangt|vat|vangen|ademt|ademen)\\s+(?:de|het)\\s+(?:essentie|ziel|geest)\\s+van(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Calque of \"captures the essence/spirit of\". Inflated claim about a print or design.",
+      "example": "Het lijnontwerp vangt de essentie van de natuur.",
+      "rewrite": "Een lijntekening van drie dennenbomen.",
+      "falsePositives": [
+        "De essentie van de cursus is dat je zelf leert haken.",
+        "Hij vangt de bal met één hand."
+      ]
+    },
+    {
+      "id": "nl-met-jou-in-gedachten",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])met\\s+(?:jou|u|jullie|jouw\\s+\\p{L}+|uw\\s+\\p{L}+)\\s+in\\s+gedachten(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Calque of \"designed with you in mind\".",
+      "example": "Deze hoesjes zijn ontworpen met jou in gedachten.",
+      "rewrite": "Er zijn hoesjes voor de meeste iPhone- en Samsung-modellen.",
+      "falsePositives": [
+        "Houd de maattabel in gedachten als je bestelt.",
+        "Ik was in gedachten al bij de kerstmarkt."
+      ]
+    },
+    {
+      "id": "nl-jezelf-of-een-dierbare",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:jezelf|uzelf)\\s+of\\s+(?:een|je|jouw|uw)\\s+(?:dierbare|geliefde|liefste)n?(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "high",
+      "evidence": "imitation",
+      "why": "Stock gifting formula (\"treat yourself or a loved one\"). Human copy says \"voor jezelf of als cadeau\".",
+      "example": "Verwen jezelf of een dierbare met deze elegante mok.",
+      "rewrite": "Leuk voor jezelf, of als cadeau.",
+      "falsePositives": [
+        "Verwen jezelf of een ander met een bos bloemen.",
+        "Een foto van een dierbare herinnering."
+      ]
+    },
+    {
+      "id": "nl-meer-dan-zomaar-een",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])meer\\s+dan\\s+(?:zomaar|alleen|slechts|gewoon|enkel|simpelweg)\\s+(?:een|het)(?![\\p{L}\\p{N}])",
+      "category": "false-contrast",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "False contrast (\"more than just a mug\"): the copy argues against a claim nobody made.",
+      "example": "Deze mok is meer dan zomaar een mok; het is een ode aan onze harige vrienden.",
+      "rewrite": "Mok met een tekening van drie katten.",
+      "falsePositives": [
+        "Bestel je meer dan één mok, dan betaal je één keer verzendkosten.",
+        "Er passen meer dan tien boeken in."
+      ]
+    },
+    {
+      "id": "nl-belangrijk-op-te-merken",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:het\\s+is|is\\s+het)\\s+(?:belangrijk|goed|essentieel|vermeldenswaard|het\\s+vermelden\\s+waard)\\s+om\\s+(?:op\\s+te\\s+merken|te\\s+vermelden|te\\s+benadrukken)|(?:het\\s+is|is\\s+het)\\s+vermeldenswaard)(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Essay filler (\"it is important to note\"), common in LLM Dutch (CLIN33 data) and absent from shop copy. Covers the inverted order too (\"Daarom is het belangrijk om op te merken\").",
+      "example": "Het is belangrijk om op te merken dat de kleuren iets kunnen afwijken.",
+      "rewrite": "De kleuren kunnen iets afwijken van de foto.",
+      "falsePositives": [
+        "Het is belangrijk om de mok niet in de oven te zetten.",
+        "Goed om te weten: we versturen ook naar België."
+      ]
+    },
+    {
+      "id": "nl-wereld-van-vandaag",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])in\\s+(?:de\\s+)?(?:(?:[\\p{L}-]+\\s+)?wereld\\s+van\\s+vandaag|(?:huidige|hedendaagse|moderne)\\s+(?:snelle\\s+|drukke\\s+|digitale\\s+|hectische\\s+)?(?:wereld|maatschappij|samenleving)|deze\\s+(?:snelle|drukke|digitale|hectische)\\s+(?:wereld|tijd|tijden))(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "Calque of \"in today's fast-paced world\". Context-setting filler.",
+      "example": "In de hectische wereld van vandaag verdien je een moment van rust.",
+      "rewrite": "Een geurkaars met lavendel, brandtijd ongeveer 40 uur.",
+      "falsePositives": [
+        "In de huidige collectie zitten vijf kleuren.",
+        "Vandaag besteld, morgen in huis."
+      ]
+    },
+    {
+      "id": "nl-ontdek-de-magie",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])ontdek\\s+(?:de|het)\\s+(?:magie|schoonheid|charme|veelzijdigheid|essentie|wonderen)(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "evidence": "corpus",
+      "why": "\"Discover the magic/beauty of…\": an opener that sells a feeling instead of naming the item.",
+      "example": "Ontdek de magie van zelf brood bakken met onze nieuwe broodbakmachine.",
+      "rewrite": "Broodbakmachine met twaalf programma's en een timer.",
+      "falsePositives": [
+        "Ontdek de rest van de collectie in onze winkel.",
+        "Ontdek het zelf op de markt in Utrecht."
+      ]
+    },
+    {
+      "id": "nl-ontdek-opener",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)ontdek(?!\\s+(?:ook|meer|hier|alle|ons\\s+assortiment|onze\\s+andere|het\\s+hele|het\\s+volledige|de\\s+rest|de\\s+vele|de\\s+nieuwste))\\s+(?:onze|ons|de|het|deze|dit|hoe|jouw|je|uw|nu|zelf)(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Sentence-initial \"Ontdek…\" as the opener. Dutch webshops also use it (\"Ontdek ook onze…\"), so the obvious shop-navigation uses are excluded and it only counts with other tells.",
+      "example": "Ontdek onze stijlvolle keramische mok, perfect voor elke koffieliefhebber!",
+      "rewrite": "Keramische mok van 330 ml in mat zwart.",
+      "falsePositives": [
+        "Ontdek ook onze andere kaarten.",
+        "Ontdek het volledige assortiment in de winkel.",
+        "Ik ontdekte deze stof op de markt."
+      ]
+    },
+    {
+      "id": "nl-maak-kennis-met",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)maak\\s+kennis\\s+met(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Calque of \"Meet your new favourite…\". Also used by human marketers, so only medium.",
+      "example": "Maak kennis met jouw nieuwe favoriete mok!",
+      "rewrite": "Een mok met een dikke wand, die lang warm blijft.",
+      "falsePositives": [
+        "Leuk om op de markt kennis te maken met nieuwe klanten.",
+        "We maakten kennis via Instagram."
+      ]
+    },
+    {
+      "id": "nl-ervaar-opener",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)ervaar\\s+(?:het|de|ultiem|nu|zelf|onze|ons|een|deze|dit)(?![\\p{L}\\p{N}])",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Imperative \"Experience the…\" as opener. Rare in human Dutch shop copy.",
+      "example": "Ervaar het ultieme koffiegenot met onze dubbelwandige glazen mok.",
+      "rewrite": "Dubbelwandige glazen mok: de koffie blijft warm, de buitenkant blijft koel.",
+      "falsePositives": [
+        "Heb je dit zelf ook ervaren? Laat het ons weten.",
+        "Mijn ervaring met deze wol is goed."
+      ]
+    },
+    {
+      "id": "nl-ben-je-klaar-om",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)(?:ben\\s+(?:je|jij|u)\\s+(?:er\\s+)?)?klaar\\s+om\\s+[^.!?\\n]{2,80}\\?",
+      "category": "rhetorical-question",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Rhetorical question calqued from \"Ready to…?\". \"Klaar voor de zomer?\" is ordinary Dutch and is not matched.",
+      "example": "Ben je klaar om op te vallen?",
+      "rewrite": "Felgeel T-shirt met een grote abstracte print.",
+      "falsePositives": [
+        "Klaar voor de zomer? Bekijk onze slippers.",
+        "Je bestelling is klaar om te verzenden."
+      ]
+    },
+    {
+      "id": "nl-durf-jij-het-aan",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])durf\\s+(?:jij|je|u)\\s+(?:het\\s+)?aan\\s*\\?",
+      "category": "rhetorical-question",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Rhetorical challenge as a closer (\"Dare you?\").",
+      "example": "Een shirt voor durfals. Durf jij het aan?",
+      "rewrite": "Een shirt met een felle print in oranje en roze.",
+      "falsePositives": [
+        "Durf je hem aan te raken? Hij is net uit de oven.",
+        "Ik durfde het eerst niet aan, maar nu draag ik hem elke dag."
+      ]
+    },
+    {
+      "id": "nl-must-have-voor-elke",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])must[\\s-]?have\\s+voor\\s+(?:elke|iedere|ieder|alle)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"A must-have for every X lover\". The word must-have alone is common in human Dutch fashion copy and is not matched.",
+      "example": "Een must-have voor elke kattenliefhebber!",
+      "rewrite": "Voor wie van katten houdt.",
+      "falsePositives": ["Deze jas is een echte must-have deze winter.", "Een must voor de zomer."]
+    },
+    {
+      "id": "nl-voor-elke-gelegenheid",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:perfect|ideaal|perfecte|ideale)\\s+(?:\\p{L}+\\s+)?voor\\s+elke\\s+gelegenheid(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Perfect for any occasion\": a claim that says nothing about the item.",
+      "example": "Een perfect cadeau voor elke gelegenheid.",
+      "rewrite": "Leuk als verjaardagscadeau of als bedankje voor de juf.",
+      "falsePositives": [
+        "Geschikt voor iedere gelegenheid en makkelijk te wassen.",
+        "Wij maken taarten voor elke gelegenheid."
+      ]
+    },
+    {
+      "id": "nl-perfecte-combinatie",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:perfecte|ideale|ultieme|harmonieuze)\\s+(?:combinatie|balans|mix|samensmelting)\\s+(?:van|tussen)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"The perfect balance/combination of X and Y\" (often stijl en comfort).",
+      "example": "Dit shirt is de perfecte balans tussen comfort en stijl.",
+      "rewrite": "Een ruim shirt van zachte katoen.",
+      "falsePositives": [
+        "De unieke combinatie van stoffen maakt elke quilt anders.",
+        "Een mix van wol en katoen."
+      ]
+    },
+    {
+      "id": "nl-stijl-en-functionaliteit",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:combineert|combineren|verenigt)\\s+(?:stijl|elegantie|klasse|design|comfort|functionaliteit|duurzaamheid)\\s+(?:en|met)|(?:stijl|design|elegantie|klasse)\\s+(?:en|met|&)\\s+functionaliteit)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"Combines style and functionality\": generic praise that fits any object. Seen in GPT-4 Dutch product copy (UltraChat-Dutch).",
+      "example": "Deze mok combineert stijl en functionaliteit op een unieke manier.",
+      "rewrite": "Een mok met een breed oor, ook fijn met handschoenen aan.",
+      "falsePositives": [
+        "Deze set combineert een mok met een bijpassend schoteltje.",
+        "Comfortabel en stevig, met een rits aan de bovenkant."
+      ]
+    },
+    {
+      "id": "nl-moeiteloos-combineren",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:combineer(?:t)?\\s+(?:je\\s+|het\\s+|hem\\s+|ze\\s+)?(?:[\\p{L}]+\\s+){0,2}?moeiteloos|moeiteloos\\s+(?:stijlvol\\p{L}*|in\\s+(?:elk|ieder)|bij\\s+(?:elk|ieder|elke|iedere|al\\s+je))|past\\s+moeiteloos)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Effortlessly fits any interior / pairs with anything\". The adverb moeiteloos on its own is normal Dutch.",
+      "example": "Het minimalistische ontwerp past moeiteloos in elk interieur.",
+      "rewrite": "Een witte vaas, 20 cm hoog.",
+      "falsePositives": [
+        "In dit gebied kun je de wandelingen moeiteloos combineren.",
+        "De rits gaat moeiteloos open en dicht."
+      ]
+    },
+    {
+      "id": "nl-past-naadloos",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:past|passen|sluit|sluiten)\\s+naadloos\\s+(?:in|bij|aan\\s+bij)\\s+(?:elk|ieder|elke|iedere|je|jouw|uw)\\s+(?:\\p{L}+\\s+)?(?:interieur|stijl|outfit|garderobe|look|kamer|huis|keuken)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Blends seamlessly into any interior\". Literal uses (\"sluit naadloos aan op je telefoon\") are common in human copy and are not matched.",
+      "example": "Het ontwerp past naadloos in elk interieur.",
+      "rewrite": "Een zwart-witte print, ook mooi naast andere posters.",
+      "falsePositives": [
+        "Het hoesje sluit naadloos aan op je iPhone.",
+        "Naadloze legging van zacht katoen."
+      ]
+    },
+    {
+      "id": "nl-adembenemend",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:adembenemend|verbluffend|oogverblindend|betoverend|fenomenaal)e?(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Superlative adjectives that LLMs use for everyday objects. Human copy uses them too, but rarely about a mug or sticker.",
+      "example": "Een adembenemende poster die je woonkamer transformeert.",
+      "rewrite": "Een poster van de duinen bij Schoorl, 50 x 70 cm.",
+      "falsePositives": [
+        "De betovering van de winter is het thema van deze kaartenset.",
+        "Een mooi uitzicht over de duinen."
+      ]
+    },
+    {
+      "id": "nl-tijdloos-cadeau",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])tijdlo(?:os|ze)\\s+(?:cadeau|geschenk|aanvulling|toevoeging|investering|blikvanger|aandenken|uitstraling)(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"A timeless gift / addition\". The adjective tijdloos for a design or classic cut is ordinary fashion Dutch and is not matched.",
+      "example": "Een tijdloos cadeau dat jarenlang gekoesterd zal worden.",
+      "rewrite": "Een geboorteposter met naam, datum, gewicht en lengte.",
+      "falsePositives": [
+        "Een tijdloos ontwerp in zwart en wit.",
+        "Tijdloze klassiekers van Chanel en Hermès."
+      ]
+    },
+    {
+      "id": "nl-het-ultieme",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:het|de|je|jouw|uw)\\s+ultieme\\s+(?:comfort|koffiegenot|theemoment|ontspanning|cadeau|ervaring|metgezel|accessoire|luxe|genot|knuffelmoment)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"The ultimate comfort / experience\". Inflation word.",
+      "example": "Ervaar het ultieme comfort met onze oversized hoodie.",
+      "rewrite": "Een ruime hoodie van zachte katoen.",
+      "falsePositives": [
+        "Ultiem zacht? Het is gewoon goede katoen.",
+        "De ultieme houdbaarheidsdatum staat op de verpakking."
+      ]
+    },
+    {
+      "id": "nl-hartverwarmend",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:hartverwarmende?|(?:originele|blijvende|unieke)\\s+manier\\s+om)(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Sentiment words used to sell a gift (\"a heartwarming way to show your appreciation\").",
+      "example": "Een hartverwarmende manier om je waardering te tonen.",
+      "rewrite": "Een mok met de tekst \"Beste juf van de wereld\".",
+      "falsePositives": [
+        "Bedankt voor je lieve berichtje!",
+        "Op een eenvoudige manier op te hangen.",
+        "Een unieke manier van bedrukken: elke mok is anders.",
+        "Ons hart ligt bij handwerk."
+      ]
+    },
+    {
+      "id": "nl-ode-aan",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:een|de|het)\\s+(?:ode|eerbetoon|hommage|liefdesverklaring)\\s+aan(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"An ode / a tribute to…\" for an ordinary product. Brand copy uses it too, so medium.",
+      "example": "Deze poster is een ode aan de mooiste stad van Nederland.",
+      "rewrite": "Een poster van grachtenpanden in Amsterdam.",
+      "falsePositives": [
+        "Een oude tegel uit Delft diende als voorbeeld.",
+        "De ode van Vondel staat op de achterkant van de kaart."
+      ]
+    },
+    {
+      "id": "nl-vertelt-een-verhaal",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])vertel(?:t|len)\\s+(?:een|zijn|haar|jouw|je|het|uw|hun)\\s+(?:eigen\\s+)?(?:uniek\\p{L}*\\s+)?verhaal(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"Every piece tells a story\". Frequent in CLIN33 LLM texts as well.",
+      "example": "Deze mok vertelt een verhaal.",
+      "rewrite": "Elke mok is met de hand geglazuurd, dus geen twee zijn hetzelfde.",
+      "falsePositives": [
+        "Op de achterkant vertel ik hoe de print gemaakt is.",
+        "Lees het verhaal achter onze winkel."
+      ]
+    },
+    {
+      "id": "nl-tot-leven",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:breng|brengt|brengen)\\s+(?:[\\p{L}']+\\s+){0,4}?tot\\s+leven|(?:komt|komen)\\s+(?:[\\p{L}']+\\s+){0,2}?tot\\s+leven)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Calque of \"bring your walls to life\".",
+      "example": "Breng je muren tot leven met deze botanische poster.",
+      "rewrite": "Botanische poster met varens, A3.",
+      "falsePositives": [
+        "Het leven is te kort voor saaie sokken.",
+        "Breng je oude kleding naar de inzamelbak."
+      ]
+    },
+    {
+      "id": "nl-laat-je-stijl-spreken",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])laat\\s+(?:je|jouw|uw)\\s+(?:persoonlijkheid|stijl|liefde|humor|muren|interieur|telefoon|outfit)\\s+(?:spreken|stralen|schitteren)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Let your personality shine / speak\". Self-expression filler.",
+      "example": "Laat je persoonlijkheid spreken met dit unieke T-shirt!",
+      "rewrite": "T-shirt met een print van een tekening in blauwe inkt.",
+      "falsePositives": [
+        "Laat je naam graveren op de achterkant.",
+        "Laat je telefoon niet in de zon liggen."
+      ]
+    },
+    {
+      "id": "nl-geef-een-upgrade",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:geef|geeft|geven|toe\\s+aan)\\s+(?:[\\p{L}']+\\s+){0,4}?(?:een\\s+)?(?:upgrade|make-?over)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Give your kitchen an upgrade / a make-over\".",
+      "example": "Geef je slaapkamer direct een upgrade met deze sprei.",
+      "rewrite": "Sprei met wafelstructuur, 240 x 260 cm.",
+      "falsePositives": [
+        "Gratis upgrade naar spoedlevering bij twee mokken.",
+        "Wij geven de stoel een nieuwe bekleding."
+      ]
+    },
+    {
+      "id": "nl-wordt-gekoesterd",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:wordt|worden|zal|zullen)\\s+(?:[\\p{L}]+\\s+){0,3}?gekoesterd|gekoesterd\\s+(?:wordt|worden))(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Will be cherished for years\": a promise about the buyer's feelings.",
+      "example": "Een tijdloos aandenken dat jarenlang wordt gekoesterd.",
+      "rewrite": "Een geboorteposter die je later mee kunt geven aan je kind.",
+      "falsePositives": [
+        "Dit is een smartphone om te koesteren.",
+        "Wij koesteren onze vaste klanten."
+      ]
+    },
+    {
+      "id": "nl-zorgvuldig-vervaardigd",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])zorgvuldig\\s+(?:vervaardigd|ontworpen|samengesteld|gecreeerd)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Carefully crafted / curated\". Craft claim without content.",
+      "example": "Zorgvuldig vervaardigd voor wie houdt van authenticiteit en vakmanschap.",
+      "rewrite": "Gedraaid op de schijf in mijn atelier in Gent.",
+      "falsePositives": [
+        "Met zorg ingepakt en binnen twee werkdagen verzonden.",
+        "Zorgvuldig gekozen stoffen? Nee, restjes uit mijn kast."
+      ]
+    },
+    {
+      "id": "nl-perfecte-aanvulling",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:perfecte|ideale|stijlvolle|tijdloze)\\s+aanvulling\\s+(?:op|aan|voor|in|bij)(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"The perfect addition to your collection/kitchen\". Also used by human webshops, so medium.",
+      "example": "Een stijlvolle aanvulling op elke keuken.",
+      "rewrite": "Past bij de andere mokken uit deze serie.",
+      "falsePositives": [
+        "Een leuke aanvulling op je verzameling.",
+        "De placemats zijn een stijlvolle toevoeging voor een gedekte tafel."
+      ]
+    },
+    {
+      "id": "nl-voor-de-moderne",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:voor|van)\\s+de\\s+moderne\\s+(?:vrouw|man|professional|consument|shopper|ouder|ouders|reiziger|thuiswerker|avonturier)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"For the modern professional / shopper\": target-group cliché.",
+      "example": "Een tijdloze investering voor de moderne professional.",
+      "rewrite": "Leren hoes met ruimte voor drie pasjes.",
+      "falsePositives": [
+        "Kies voor de moderne V-hals of de klassieke ronde hals.",
+        "In de moderne kunst is dat heel gewoon."
+      ]
+    },
+    {
+      "id": "nl-zonder-in-te-leveren",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])zonder\\s+(?:in\\s+te\\s+leveren|concessies\\s+te\\s+doen)\\s+(?:op|aan)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Calque of \"without compromising on style\".",
+      "example": "Maak een bewuste keuze zonder in te leveren op stijl!",
+      "rewrite": "Gemaakt van gerecycled katoen.",
+      "falsePositives": [
+        "Je levert de oude tas in bij de winkel.",
+        "Inleveren kan tot 14 dagen na ontvangst."
+      ]
+    },
+    {
+      "id": "nl-investering-in-stijl",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:investering\\s+in\\s+(?:stijl|comfort|kwaliteit|jezelf)|tijdloze\\s+investering)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"An investment in style/comfort\" for a low-priced item.",
+      "example": "Een investering in comfort die jarenlang meegaat.",
+      "rewrite": "Een wollen plaid die na jaren nog netjes is.",
+      "falsePositives": [
+        "Een goede matras is een investering die zich terugbetaalt.",
+        "Wij investeren in duurzame verpakkingen."
+      ]
+    },
+    {
+      "id": "nl-dagelijkse-herinnering",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])dagelijkse\\s+(?:herinnering|boost)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"A daily reminder to chase your dreams\". Motivational filler.",
+      "example": "Een dagelijkse herinnering om je dromen na te jagen.",
+      "rewrite": "Poster met de tekst \"Geloof in jezelf\".",
+      "falsePositives": [
+        "Neem de dagelijkse dosis van twee tabletten in.",
+        "Je krijgt een herinnering per mail."
+      ]
+    },
+    {
+      "id": "nl-harten-veroveren",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:harten\\s+(?:veroveren|sneller|stelen)|hart\\s+(?:laten\\s+)?smelten|laat\\s+je\\s+hart\\s+smelten)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Will win hearts / melt your heart\".",
+      "example": "Deze mok zal zeker harten veroveren.",
+      "rewrite": "Een mok met een tekening van een slapende puppy.",
+      "falsePositives": ["Op de mok staat een rood hart.", "Smelt de chocolade au bain-marie."]
+    },
+    {
+      "id": "nl-nooit-uit-de-mode",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:nooit|niet)\\s+uit\\s+de\\s+mode\\s+(?:raakt|raken|gaat|gaan)(?![\\p{L}\\p{N}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Never goes out of style\".",
+      "example": "Een vintage uitstraling die nooit uit de mode raakt.",
+      "rewrite": "Emaille mok in crème met een blauwe rand.",
+      "falsePositives": [
+        "Tweedehands kleding, uit de mode of niet.",
+        "Deze kleur is uit de collectie gehaald."
+      ]
+    },
+    {
+      "id": "nl-cadeau-om-nooit-te-vergeten",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:cadeau|geschenk|herinnering|moment)\\s+(?:om|dat|die)\\s+(?:nooit|niet\\s+snel)\\s+(?:te\\s+)?(?:vergeten|vergeet)|(?:nooit|niet\\s+snel)\\s+(?:zal|zullen)\\s+vergeten)(?![\\p{L}\\p{N}])",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"A gift they will never forget\": closing promise.",
+      "example": "Een cadeau om nooit te vergeten.",
+      "rewrite": "Lever je naam en datum aan bij het bestellen.",
+      "falsePositives": [
+        "Vergeet niet je adres te controleren.",
+        "Nooit meer een sleutel kwijt met deze hanger."
+      ]
+    },
+    {
+      "id": "nl-die-hij-verdient",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:(?:bescherming|aandacht|zorg|upgrade|rust|plek|liefde|verzorging|uitstraling)\\s+die\\s+(?:hij|ze|zij|het|je\\s+\\p{L}+|jouw\\s+\\p{L}+|uw\\s+\\p{L}+)\\s+verdient|(?:je|jij|u)\\s+verdient\\s+het\\s*!)",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Give your phone the protection it deserves\" / \"You deserve it!\".",
+      "example": "Geef je telefoon de bescherming die hij verdient.",
+      "rewrite": "Hoesje met verhoogde randen rond de camera.",
+      "falsePositives": [
+        "Van het geld dat hij verdient, koopt hij nieuwe wol.",
+        "Verdient je kind een beloning? Kies een sticker."
+      ]
+    },
+    {
+      "id": "nl-iemands-dag-compleet",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:maak|maakt|maken)\\s+(?:iemands|hun|haar|zijn|jouw|je|elke)\\s+dag\\s+(?:compleet|goed|speciaal|helemaal\\s+goed)(?![\\p{L}\\p{N}])",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "\"Make someone's day\": closing call to action.",
+      "example": "Bestel nu en maak iemands dag compleet!",
+      "rewrite": "Te bestellen tot 20 december voor levering voor kerst.",
+      "falsePositives": [
+        "Maak je dag af met een kop thee.",
+        "Je maakt de kaart compleet met een eigen tekst."
+      ]
+    },
+    {
+      "id": "nl-niet-zomaar-een-het-is",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])niet\\s+(?:zomaar|gewoon|alleen|slechts|enkel)\\s+(?:een|het)\\s+[\\p{L}-]+\\s*[;:,.—–-]\\s*(?:het|dit|hij|ze|deze)\\s+is(?![\\p{L}\\p{N}])",
+      "category": "false-contrast",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Not-X-but-Y frame: \"Dit is niet zomaar een poster: het is een kunstwerk\". Brand copy used it before LLMs too (3 of 3,595 human paragraphs), so medium.",
+      "example": "Dit is niet zomaar een poster: het is een kunstwerk.",
+      "rewrite": "Giclée-print op katoenpapier van 300 gram.",
+      "falsePositives": [
+        "Dit is niet zomaar een tas, want hij is ook waterdicht.",
+        "Niet zomaar een cadeau? Kijk bij de kaarten."
+      ]
+    },
+    {
+      "id": "nl-kortom-zinsbegin",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)kortom(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Summary connector before a one-line sales closer.",
+      "example": "Kortom: een stijlvolle en praktische aanvulling op elke keuken.",
+      "rewrite": "De mok houdt koffie ongeveer een half uur warm.",
+      "falsePositives": [
+        "Kort om de hals, lang op de rug.",
+        "Het is een korte tas, om over de schouder te dragen."
+      ]
+    },
+    {
+      "id": "nl-al-met-al",
+      "kind": "regex",
+      "match": "(?:^|[.!?:]\\s+|\\n\\s*)al\\s+met\\s+al(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Summing-up connector. 8% of CLIN33 LLM texts start a sentence with it, against 2 of 3,595 human webshop paragraphs.",
+      "example": "Al met al een fantastisch cadeau voor iedere koffieliefhebber.",
+      "rewrite": "Inhoud 330 ml, vaatwasserbestendig.",
+      "falsePositives": ["De kaarten zijn al met de post verstuurd.", "Alles met de hand gemaakt."]
+    },
+    {
+      "id": "nl-cruciaal",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])crucia(?:al|le)(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Register word from LLM prose: 40 of 750 CLIN33 texts, against 5 of 3,595 human webshop paragraphs.",
+      "example": "Een goede grip is cruciaal voor een fijne koffie-ervaring.",
+      "rewrite": "Het oor is breed genoeg voor drie vingers.",
+      "falsePositives": ["Kruis aan welke maat je wilt.", "Het kruis van de broek zit iets lager."]
+    },
+    {
+      "id": "nl-speelt-een-rol",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])speel?t\\s+een\\s+(?:cruciale|belangrijke|essentiele|centrale|grote|sleutel)\\s*rol(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"Plays a crucial role\". Essay register.",
+      "example": "Kleur speelt een cruciale rol in elk interieur.",
+      "rewrite": "Verkrijgbaar in oker, olijf en roest.",
+      "falsePositives": [
+        "Op de kaart speelt een vos viool.",
+        "Deze rol cadeaupapier is 3 meter lang."
+      ]
+    },
+    {
+      "id": "nl-getuigt-van",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])getuig(?:t|en)\\s+van(?![\\p{L}\\p{N}])",
+      "category": "filler",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"Is a testament to\". Inflated significance.",
+      "example": "Elke naad getuigt van vakmanschap.",
+      "rewrite": "De naden zijn dubbel gestikt.",
+      "falsePositives": [
+        "Het getuigschrift zit bij de verpakking.",
+        "Een getuige van ons huwelijk kocht deze kaart."
+      ]
+    },
+    {
+      "id": "nl-bestel-nu-en",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])bestel\\s+(?:vandaag\\s+nog|nu|snel|direct|meteen)\\s+en(?![\\p{L}\\p{N}])",
+      "category": "urgency",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Closing formula \"Bestel nu en …\" (order now and elevate/surprise/make someone's day). \"Bestel vandaag nog\" alone is common in human webshops and is not matched.",
+      "example": "Bestel vandaag nog en til je koffiemomenten naar een hoger niveau!",
+      "rewrite": "Op werkdagen voor 16:00 besteld, dezelfde dag verzonden.",
+      "falsePositives": [
+        "Bestel je voor 15:00, dan versturen we nog dezelfde dag.",
+        "Bestel vandaag nog, morgen in huis."
+      ]
+    },
+    {
+      "id": "nl-wacht-niet-langer",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])wacht\\s+niet\\s+langer(?![\\p{L}\\p{N}])",
+      "category": "urgency",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Pushy closer (\"Don't wait any longer\").",
+      "example": "Wacht niet langer en haal deze favoriet in huis!",
+      "rewrite": "Nog drie op voorraad in deze kleur.",
+      "falsePositives": [
+        "Je hoeft niet langer te wachten op je bestelling.",
+        "De wachttijd is niet langer dan twee weken."
+      ]
+    },
+    {
+      "id": "nl-waar-wacht-je-nog-op",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])waar\\s+wacht\\s+(?:je|jij|u)\\s+(?:nog\\s+)?op(?![\\p{L}\\p{N}])",
+      "category": "urgency",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Rhetorical urgency closer. Human webshops use it too, so it only counts with other tells.",
+      "example": "Dus waar wacht je nog op?",
+      "rewrite": "Bestellen kan via de knop hieronder.",
+      "falsePositives": [
+        "Ik wacht nog op de post.",
+        "Waarop wacht je bestelling nog? Op de betaling."
+      ]
+    },
+    {
+      "id": "nl-kenmerken-kop",
+      "kind": "regex",
+      "match": "(?:^|\\n)\\s*(?:\\p{Extended_Pictographic}\\s*)?(?:belangrijkste\\s+kenmerken|waarom\\s+(?:je|jij|u)\\s+[^\\n?]{0,40}(?:zult\\s+willen|moet\\s+hebben|zult\\s+houden)|waarom\\s+(?:kiezen\\s+voor|kies\\s+je\\s+voor)\\s+[^\\n]{0,40})\\s*[:?]?\\s*(?:\\n|$)",
+      "category": "structure",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Template section heads (\"Belangrijkste kenmerken:\", \"Waarom je deze mok zult willen:\"). A plain \"Kenmerken:\" line is common in human listings and is not matched.",
+      "example": "Waarom je deze mok zult willen:\n- Groot formaat",
+      "rewrite": "Kenmerken:\n- Inhoud 350 ml",
+      "falsePositives": [
+        "Kenmerken:\n- 100% katoen",
+        "Waarom ik deze winkel ben begonnen? Dat lees je op mijn profiel."
+      ]
+    },
+    {
+      "id": "nl-emoji-opsomming",
+      "kind": "regex",
+      "match": "(?:^|\\n)\\s*(?:✔️?|✅|✨|⭐|\\u{1F31F}|\\u{1F449}|\\u{1F539}|\\u{1F538})\\s*\\p{L}",
+      "category": "structure",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Bullets made of ✔️, ✅, ✨ or 👉 at the start of lines, a chat-output habit. Hearts and other emoji in human listings are not matched.",
+      "example": "✔️ 100% katoen\n✔️ Unisex pasvorm",
+      "rewrite": "- 100% katoen\n- Unisex pasvorm",
+      "falsePositives": ["♡ Gemaakt in mijn atelier ♡", "Leuk cadeau 🎁"]
+    },
+    {
+      "id": "nl-em-dash",
+      "kind": "regex",
+      "match": "—",
+      "category": "punctuation",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "The em dash (—) is not a Dutch typesetting norm; Dutch uses a spaced en dash or a comma. Rare in human copy (6 of 3,595 paragraphs). Note: our Dutch LLM samples rarely used it either, so this is borrowed from English evidence.",
+      "example": "Deze mok — gemaakt van keramiek — is perfect voor elke dag.",
+      "rewrite": "Deze mok is van keramiek en kan elke dag mee.",
+      "falsePositives": ["Verkrijgbaar in maat 36 – 42.", "Levering: 2-3 werkdagen."]
+    },
+    {
+      "id": "nl-serial-comma",
+      "kind": "regex",
+      "match": "[\\p{L}\\d]+,\\s+(?:[\\p{L}\\d-]+\\s+){0,2}[\\p{L}\\d-]+,\\s+(?:en|of)\\s+\\p{L}",
+      "category": "punctuation",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "Comma before \"en\"/\"of\" in a list (English serial comma). Dutch normally has no comma there. Found in 3 of 8 GPT-4 product texts and 4.5% of CLIN33 texts, against about 1% of human texts (36 of 3,595).",
+      "example": "Verkrijgbaar in rood, groen, en blauw.",
+      "rewrite": "Verkrijgbaar in rood, groen en blauw.",
+      "falsePositives": ["Verkrijgbaar in rood, groen en blauw.", "Wit, zwart of grijs."]
+    },
+    {
+      "id": "nl-of-het-nu-gaat-om",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])of\\s+het\\s+nu\\s+(?:gaat\\s+om|is|voor|om)(?![\\p{L}\\p{N}])",
+      "category": "structure",
+      "precision": "medium",
+      "evidence": "corpus",
+      "why": "\"Of het nu gaat om …\" (\"Whether it is…\"). 10 of 750 CLIN33 LLM texts, 6 of 3,595 human webshop paragraphs.",
+      "example": "Of het nu gaat om je ochtendkoffie of een kop soep, deze mok kan het aan.",
+      "rewrite": "Mok van 500 ml, ook geschikt voor soep.",
+      "falsePositives": [
+        "Ik weet niet of het nu al verzonden is.",
+        "Kijk even of het nu wel werkt."
+      ]
+    },
+    {
+      "id": "nl-zeg-vaarwel",
+      "kind": "regex",
+      "match": "(?<![\\p{L}\\p{N}])(?:zeg|zegt)\\s+(?:(?:maar\\s+)?(?:vaarwel|adieu)|maar\\s+dag)\\s+(?:tegen|aan)(?![\\p{L}\\p{N}])",
+      "category": "hype",
+      "precision": "medium",
+      "evidence": "imitation",
+      "why": "Calque of \"say goodbye to\". Old Dutch ad language too, so medium.",
+      "example": "Zeg vaarwel tegen plastic tasjes en omarm een groenere levensstijl!",
+      "rewrite": "Opvouwbare tas die in je jaszak past.",
+      "falsePositives": ["Zeg dag tegen oma en zwaai even.", "Hij zegt altijd vaarwel bij de deur."]
+    }
+  ]
+}

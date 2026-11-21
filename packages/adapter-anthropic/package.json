@@ -1,0 +1,16 @@
+{
+  "name": "@pod/adapter-anthropic",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude as the language model behind listing text, scene checks and scene styles.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "@pod/adapter-ai": "0.1.0",
+    "@pod/adapter-http": "0.1.0"
+  }
+}

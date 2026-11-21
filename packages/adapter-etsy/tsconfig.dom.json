@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist/dom",
+    "tsBuildInfoFile": "dist/dom.tsbuildinfo",
+    "lib": ["ES2023", "DOM"],
+    "types": ["node"]
+  },
+  "include": ["src/research/etsy-page-scripts.test.ts"],
+  "references": [{ "path": "." }]
+}

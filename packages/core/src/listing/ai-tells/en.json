@@ -1,0 +1,469 @@
+{
+  "language": "en",
+  "version": 1,
+  "foldDiacritics": false,
+  "patterns": [
+    {
+      "id": "en-not-just-but",
+      "kind": "phrase",
+      "match": "not just … but",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Denies a claim nobody made so the real one sounds bigger.",
+      "example": "This is not just a mug, but a daily reminder to slow down.",
+      "rewrite": "A mug with a sleeping fox on both sides.",
+      "falsePositives": ["Not just yet. But soon."]
+    },
+    {
+      "id": "en-not-only-but",
+      "kind": "phrase",
+      "match": "not only … but",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "The same contrast in its longer form.",
+      "example": "It is not only practical but also a statement of style.",
+      "rewrite": "It holds 11 oz and shows a hand-lettered quote."
+    },
+    {
+      "id": "en-not-just-its",
+      "kind": "phrase",
+      "match": "not just … it's",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "The contrast with a second clause in place of but.",
+      "example": "It's not just a shirt, it's a mood.",
+      "rewrite": "A black shirt with a grumpy cat on the front."
+    },
+    {
+      "id": "en-more-than-just",
+      "kind": "phrase",
+      "match": "more than just a",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Lifts the item above what it is instead of saying what it is.",
+      "example": "More than just a tote, it carries your story.",
+      "rewrite": "A cotton tote with a map of Lisbon printed on one side.",
+      "falsePositives": ["It holds more than a cup of tea."]
+    },
+    {
+      "id": "en-whether-youre",
+      "kind": "phrase",
+      "match": "whether you're … or",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "A stock opener that lists imagined buyers instead of the item.",
+      "example": "Whether you're a coffee lover or a tea fan, this mug is for you.",
+      "rewrite": "An 11 oz mug for coffee or tea.",
+      "falsePositives": ["Whether it fits depends on the size chart."]
+    },
+    {
+      "id": "en-look-no-further",
+      "kind": "phrase",
+      "match": "look no further",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Advert talk that tells the buyer nothing about the item.",
+      "example": "Looking for a gift for a cat lover? Look no further!",
+      "rewrite": "A mug for cat people, with three cats asleep on a sofa."
+    },
+    {
+      "id": "en-say-hello-to",
+      "kind": "phrase",
+      "match": "say hello to",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Staged opener that delays saying what the item is.",
+      "example": "Say hello to your new favourite hoodie.",
+      "rewrite": "A grey hoodie with a mountain line drawing on the chest."
+    },
+    {
+      "id": "en-meet-your-new",
+      "kind": "phrase",
+      "match": "meet your new",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Staged opener that delays saying what the item is.",
+      "example": "Meet your new go-to mug for slow mornings.",
+      "rewrite": "A mug with a sunrise over the sea."
+    },
+    {
+      "id": "en-introducing",
+      "kind": "word",
+      "match": "introducing",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "why": "Press-release opener; fine once, a tell next to others.",
+      "example": "Introducing our cosy autumn sweatshirt.",
+      "rewrite": "An autumn sweatshirt with orange leaves on the front.",
+      "falsePositives": ["Introduce some colour to your kitchen."]
+    },
+    {
+      "id": "en-elevate-your",
+      "kind": "phrase",
+      "match": "elevate your",
+      "category": "hype",
+      "precision": "high",
+      "why": "Promises a better life instead of describing the item.",
+      "example": "Elevate your morning routine with this mug.",
+      "rewrite": "A mug for your morning coffee, with a cat in a sun hat."
+    },
+    {
+      "id": "en-next-level",
+      "kind": "phrase",
+      "match": "to the next level",
+      "category": "hype",
+      "precision": "high",
+      "why": "Empty promise of improvement.",
+      "example": "Take your style to the next level with this tee.",
+      "rewrite": "A tee with a retro sun print.",
+      "falsePositives": ["The next level of the shelf holds the mugs."]
+    },
+    {
+      "id": "en-perfect-blend",
+      "kind": "phrase",
+      "match": "the perfect blend of",
+      "category": "hype",
+      "precision": "high",
+      "why": "Claims a balance without naming anything concrete.",
+      "example": "The perfect blend of comfort and style.",
+      "rewrite": "Soft cotton with a small print on the chest."
+    },
+    {
+      "id": "en-touch-of",
+      "kind": "phrase",
+      "match": "a touch of",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Vague addition of magic, charm or whimsy.",
+      "example": "Add a touch of magic to your kitchen.",
+      "rewrite": "The mug shows a small witch on a broom.",
+      "falsePositives": ["A tea towel with touches of gold."]
+    },
+    {
+      "id": "en-sure-to-impress",
+      "kind": "phrase",
+      "match": "sure to impress",
+      "category": "hype",
+      "precision": "high",
+      "why": "A promise about other people's reactions.",
+      "example": "This bold design is sure to impress.",
+      "rewrite": "The design is a large red tiger on black."
+    },
+    {
+      "id": "en-sure-to-turn-heads",
+      "kind": "phrase",
+      "match": "sure to turn heads",
+      "category": "hype",
+      "precision": "high",
+      "why": "A promise about other people's reactions.",
+      "example": "A shirt that is sure to turn heads.",
+      "rewrite": "A shirt with a neon flamingo on the back."
+    },
+    {
+      "id": "en-crafted",
+      "kind": "regex",
+      "match": "\\b(?:meticulously|thoughtfully|lovingly|carefully) (?:crafted|designed|made)\\b",
+      "category": "hype",
+      "precision": "high",
+      "why": "Claims care in making that print on demand cannot show.",
+      "example": "Each piece is meticulously crafted for you.",
+      "rewrite": "Each piece is printed when you order it."
+    },
+    {
+      "id": "en-handmade",
+      "kind": "regex",
+      "match": "\\b(?:handmade|handcrafted|hand-made)\\b",
+      "category": "hype",
+      "precision": "high",
+      "why": "The item is printed to order, so it is not made by hand.",
+      "example": "A handmade mug for your desk.",
+      "rewrite": "A printed mug for your desk."
+    },
+    {
+      "id": "en-hand-drawn",
+      "kind": "regex",
+      "match": "\\bhand[- ]?(?:drawn|painted)\\b",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Can be true of the original artwork, so it counts only next to other signs.",
+      "example": "A hand-drawn sunflower on a soft tee.",
+      "rewrite": "A sunflower drawing on a soft tee.",
+      "falsePositives": ["A hand towel with a painted look."]
+    },
+    {
+      "id": "en-made-with-love",
+      "kind": "regex",
+      "match": "\\b(?:made|crafted|designed) with (?:love|care)\\b",
+      "category": "hype",
+      "precision": "high",
+      "why": "A feeling claimed about printing it cannot carry.",
+      "example": "Made with love just for you.",
+      "rewrite": "Printed when you order it."
+    },
+    {
+      "id": "en-unleash",
+      "kind": "word",
+      "match": "unleash",
+      "category": "hype",
+      "precision": "high",
+      "why": "Advert verb with nothing to unleash on a mug.",
+      "example": "Unleash your inner artist.",
+      "rewrite": "A paint-splash print in blue and yellow."
+    },
+    {
+      "id": "en-unlock-your",
+      "kind": "phrase",
+      "match": "unlock your",
+      "category": "hype",
+      "precision": "high",
+      "why": "Figurative promise with no referent.",
+      "example": "Unlock your creativity every morning.",
+      "rewrite": "A sketchbook-style print of a pencil and a coffee cup.",
+      "falsePositives": ["Unlocked phone case."]
+    },
+    {
+      "id": "en-dive-into",
+      "kind": "regex",
+      "match": "\\b(?:dive|delve|immerse yourself) into\\b",
+      "category": "hype",
+      "precision": "high",
+      "why": "Stock verb of AI prose.",
+      "example": "Dive into the world of vintage botanicals.",
+      "rewrite": "A print of three vintage ferns."
+    },
+    {
+      "id": "en-delve",
+      "kind": "word",
+      "match": "delve",
+      "category": "hype",
+      "precision": "high",
+      "why": "One of the most frequent words in AI prose.",
+      "example": "Delve deeper into the story behind the print.",
+      "rewrite": "The print shows a lighthouse at night.",
+      "falsePositives": ["Delvecchio family name mug."]
+    },
+    {
+      "id": "en-embark-on",
+      "kind": "phrase",
+      "match": "embark on",
+      "category": "hype",
+      "precision": "high",
+      "why": "Grand verb for an ordinary purchase.",
+      "example": "Embark on a journey of cosy evenings.",
+      "rewrite": "A blanket for evenings on the sofa."
+    },
+    {
+      "id": "en-testament-to",
+      "kind": "phrase",
+      "match": "a testament to",
+      "category": "hype",
+      "precision": "high",
+      "why": "Inflated significance for a printed item.",
+      "example": "This print is a testament to your love of the sea.",
+      "rewrite": "This print shows waves and a small sailing boat.",
+      "falsePositives": ["Old Testament verse print."]
+    },
+    {
+      "id": "en-tapestry-of",
+      "kind": "phrase",
+      "match": "tapestry of",
+      "category": "hype",
+      "precision": "high",
+      "why": "Figurative cliche of AI prose.",
+      "example": "A rich tapestry of colours and shapes.",
+      "rewrite": "Red, ochre and teal circles on cream."
+    },
+    {
+      "id": "en-boasts",
+      "kind": "word",
+      "match": "boasts",
+      "category": "hype",
+      "precision": "high",
+      "why": "Avoids a plain has or shows.",
+      "example": "The mug boasts a playful fox design.",
+      "rewrite": "The mug has a fox on it.",
+      "falsePositives": ["Boat lover mug."]
+    },
+    {
+      "id": "en-showcases",
+      "kind": "word",
+      "match": "showcases",
+      "category": "hype",
+      "precision": "high",
+      "why": "Avoids a plain shows.",
+      "example": "The design showcases a moonlit forest.",
+      "rewrite": "The design shows a forest under a full moon.",
+      "falsePositives": ["Showcase cabinet print."]
+    },
+    {
+      "id": "en-serves-as",
+      "kind": "phrase",
+      "match": "serves as a",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Avoids a plain is.",
+      "example": "This poster serves as a reminder to dream big.",
+      "rewrite": "This poster says Dream big in white letters.",
+      "falsePositives": ["It serves two cups of tea."]
+    },
+    {
+      "id": "en-todays-world",
+      "kind": "regex",
+      "match": "\\bin today's (?:fast-paced|busy|modern|digital) world\\b",
+      "category": "filler",
+      "precision": "high",
+      "why": "Throat-clearing opener about the world, not the item.",
+      "example": "In today's fast-paced world, we all need a moment of calm.",
+      "rewrite": "A calm print of a lake at dawn."
+    },
+    {
+      "id": "en-worth-noting",
+      "kind": "regex",
+      "match": "\\b(?:it's|it is) (?:worth noting|important to note)\\b",
+      "category": "filler",
+      "precision": "high",
+      "why": "Announces a point instead of making it.",
+      "example": "It's worth noting that the print will not fade.",
+      "rewrite": "The print does not fade in the dishwasher."
+    },
+    {
+      "id": "en-additionally",
+      "kind": "regex",
+      "match": "(?<=^|[.!?]\\s+|\\n)(?:additionally|furthermore|moreover),",
+      "category": "filler",
+      "precision": "medium",
+      "why": "Essay connector a shop owner rarely uses.",
+      "example": "Additionally, it makes a great gift.",
+      "rewrite": "It also comes in white.",
+      "falsePositives": ["Printed additionally on the back, if you choose it."]
+    },
+    {
+      "id": "en-chat-reply",
+      "kind": "regex",
+      "match": "\\b(?:i hope this helps|here is your (?:listing|description|revised)|as an ai)\\b",
+      "category": "filler",
+      "precision": "high",
+      "why": "Words meant for the person who asked, not the buyer.",
+      "example": "Here is your listing for the tulip mug.",
+      "rewrite": "A mug with three small tulips."
+    },
+    {
+      "id": "en-perfect-for-any",
+      "kind": "regex",
+      "match": "\\bperfect (?:for|addition to) any (?:occasion|space|home|room|wardrobe)\\b",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Fits everything, so says nothing.",
+      "example": "A cheerful print, perfect for any occasion.",
+      "rewrite": "A cheerful print for a kitchen or a hallway."
+    },
+    {
+      "id": "en-perfect",
+      "kind": "word",
+      "match": "perfect",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "An opinion word; Etsy asks to keep these out of the title.",
+      "example": "Perfect Tulip Mug for Spring",
+      "rewrite": "Tulip Mug with Bees for Spring",
+      "falsePositives": ["Perfectly sized for small hands."]
+    },
+    {
+      "id": "en-beautiful",
+      "kind": "regex",
+      "match": "\\b(?:beautiful|amazing|wonderful|gorgeous)\\b",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Opinion words with nothing behind them.",
+      "example": "A beautiful and amazing design.",
+      "rewrite": "Pink peonies on a pale green background.",
+      "falsePositives": ["Beautifully simple."]
+    },
+    {
+      "id": "en-stunning",
+      "kind": "regex",
+      "match": "\\b(?:stunning|captivating|enchanting|exquisite|breathtaking)\\b",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Big praise words that AI text reaches for.",
+      "example": "A captivating design with stunning detail.",
+      "rewrite": "Every feather of the owl is drawn in fine lines."
+    },
+    {
+      "id": "en-timeless",
+      "kind": "regex",
+      "match": "\\b(?:timeless|must-have|statement piece|conversation starter)\\b",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Stock praise that fits any product.",
+      "example": "A timeless statement piece for your wall.",
+      "rewrite": "A black and white print of a 1950s bicycle.",
+      "falsePositives": ["Time for tea."]
+    },
+    {
+      "id": "en-vibrant",
+      "kind": "regex",
+      "match": "\\bvibrant\\b(?!\\s+(?:colou?rs?|hues|print))",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Common AI word unless it describes colours.",
+      "example": "A vibrant design for a vibrant soul.",
+      "rewrite": "A bright yellow lemon print.",
+      "falsePositives": ["Printed in vibrant colours that last."]
+    },
+    {
+      "id": "en-limited-time",
+      "kind": "regex",
+      "match": "\\b(?:limited time|limited stock|only a few left|selling fast|while (?:stocks|supplies) last)\\b",
+      "category": "urgency",
+      "precision": "high",
+      "why": "Printed to order, so it never runs out.",
+      "example": "Selling fast, so order yours while stocks last.",
+      "rewrite": "Each one is printed when you order it.",
+      "falsePositives": ["Limited edition colours are listed in the menu."]
+    },
+    {
+      "id": "en-dont-miss-out",
+      "kind": "regex",
+      "match": "\\b(?:don't miss out|hurry)\\b",
+      "category": "urgency",
+      "precision": "high",
+      "why": "Invented pressure to buy.",
+      "example": "Don't miss out on this cute design!",
+      "rewrite": "The design shows a hedgehog in a scarf.",
+      "falsePositives": ["Hurricane season tracker poster."]
+    },
+    {
+      "id": "en-get-yours",
+      "kind": "regex",
+      "match": "\\b(?:order|get|grab) yours (?:today|now)\\b",
+      "category": "cliche-closer",
+      "precision": "high",
+      "why": "Closing sales line that adds nothing.",
+      "example": "Grab yours today and make every sip special.",
+      "rewrite": "It is dishwasher and microwave safe.",
+      "falsePositives": ["Get your size from the chart."]
+    },
+    {
+      "id": "en-lover-in-your-life",
+      "kind": "phrase",
+      "match": "lover in your life",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "why": "Stock gift line.",
+      "example": "A great gift for the coffee lover in your life.",
+      "rewrite": "For anyone who drinks two coffees before nine."
+    },
+    {
+      "id": "en-treat-yourself",
+      "kind": "phrase",
+      "match": "treat yourself",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "why": "Stock closing push.",
+      "example": "Treat yourself or someone special.",
+      "rewrite": "It comes in a sturdy box.",
+      "falsePositives": ["Treat with care."]
+    }
+  ]
+}

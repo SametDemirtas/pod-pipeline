@@ -1,0 +1,11 @@
+export { ContentAddressedStore } from './content-addressed-store.js';
+export { ImageHeaderInspector } from './image-header-inspector.js';
+export { NodeHasher } from './node-hasher.js';
+export { NodeSourceScanner } from './node-source-scanner.js';
+export { renameWithRetry } from './rename-with-retry.js';
+export { syncFolder } from './sync-folder.js';
+export { WorkerPngScaler } from './png/worker-png-scaler.js';
+export type { PngWorker } from './png/worker-run.js';
+export { WorkerPngRotator } from './png/worker-png-rotator.js';
+export { WorkerPngFlattener } from './png/worker-png-flattener.js';
+export { servePngJobs, type PngPort } from './png/png-worker-protocol.js';

@@ -1,0 +1,68 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/core/tsconfig.test.json"
+    },
+    {
+      "path": "packages/contracts"
+    },
+    {
+      "path": "packages/rules"
+    },
+    {
+      "path": "packages/adapter-sqlite"
+    },
+    {
+      "path": "packages/adapter-fs"
+    },
+    {
+      "path": "packages/adapter-realesrgan"
+    },
+    {
+      "path": "packages/adapter-printful"
+    },
+    {
+      "path": "packages/adapter-file-hosts"
+    },
+    {
+      "path": "packages/adapter-etsy"
+    },
+    {
+      "path": "packages/adapter-etsy/tsconfig.dom.json"
+    },
+    {
+      "path": "packages/adapter-ai"
+    },
+    {
+      "path": "packages/adapter-anthropic"
+    },
+    {
+      "path": "packages/adapter-gemini"
+    },
+    {
+      "path": "packages/adapter-openai"
+    },
+    {
+      "path": "packages/adapter-pinterest"
+    },
+    {
+      "path": "packages/adapter-http"
+    },
+    {
+      "path": "apps/desktop"
+    },
+    {
+      "path": "apps/ui"
+    },
+    {
+      "path": "apps/mcp"
+    },
+    {
+      "path": "tsconfig.tooling.json"
+    }
+  ]
+}

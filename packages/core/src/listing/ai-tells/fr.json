@@ -1,0 +1,233 @@
+{
+  "language": "fr",
+  "version": 1,
+  "foldDiacritics": false,
+  "patterns": [
+    {
+      "id": "fr-non-seulement",
+      "kind": "phrase",
+      "match": "non seulement … mais",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Denies a claim nobody made so the real one sounds bigger.",
+      "example": "Ce mug est non seulement pratique, mais aussi élégant.",
+      "rewrite": "Un mug de 325 ml avec un renard des deux côtés."
+    },
+    {
+      "id": "fr-plus-quun-simple",
+      "kind": "phrase",
+      "match": "plus qu'un simple",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Lifts the item above what it is.",
+      "example": "Plus qu'un simple t-shirt, un état d'esprit.",
+      "rewrite": "Un t-shirt noir avec un chat sur la poitrine."
+    },
+    {
+      "id": "fr-pas-quun",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:ce n'est pas (?:seulement|qu'un))(?![\\p{L}])",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "The same contrast with c'est in place of mais.",
+      "example": "Ce n'est pas qu'un sac, c'est votre allié du quotidien.",
+      "rewrite": "Un sac en coton qui tient un ordinateur portable."
+    },
+    {
+      "id": "fr-que-vous-soyez",
+      "kind": "phrase",
+      "match": "que vous soyez … ou",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "why": "Lists imagined buyers instead of the item.",
+      "example": "Que vous soyez amateur de café ou de thé, ce mug est fait pour vous.",
+      "rewrite": "Un mug pour le café ou le thé."
+    },
+    {
+      "id": "fr-plongez",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:plongez (?:dans|au cœur)|plonger dans)(?![\\p{L}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Calque of dive into.",
+      "example": "Plongez dans l'univers des champignons.",
+      "rewrite": "Une affiche avec sept espèces de champignons."
+    },
+    {
+      "id": "fr-laissez-vous",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:laissez-vous (?:séduire|emporter|tenter))(?![\\p{L}])",
+      "category": "cliche-opener",
+      "precision": "medium",
+      "why": "Stock advertising invitation.",
+      "example": "Laissez-vous séduire par ce motif floral.",
+      "rewrite": "Un motif de pivoines roses sur fond vert pâle."
+    },
+    {
+      "id": "fr-temoigne-de",
+      "kind": "phrase",
+      "match": "témoigne de",
+      "category": "hype",
+      "precision": "high",
+      "why": "Gives the item a meaning instead of showing it.",
+      "example": "Ce poster témoigne de votre amour du voyage.",
+      "rewrite": "Ce poster montre une carte du monde aux tons pastel."
+    },
+    {
+      "id": "fr-role-cle",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:joue un rôle (?:clé|essentiel|crucial))(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Inflated significance for an everyday item.",
+      "example": "Ce mug joue un rôle clé dans vos matinées.",
+      "rewrite": "Un mug pour le café du matin."
+    },
+    {
+      "id": "fr-compagnon-ideal",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:le|votre) compagnon idéal|l'alliance parfaite)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Stock phrase that fits any product.",
+      "example": "Le compagnon idéal de vos journées.",
+      "rewrite": "Pour le café au bureau."
+    },
+    {
+      "id": "fr-touche-de",
+      "kind": "phrase",
+      "match": "une touche de",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Vague addition of magic or charm.",
+      "example": "Ajoutez une touche de magie à votre cuisine.",
+      "rewrite": "Une petite sorcière sur un balai.",
+      "falsePositives": ["Une touche douce au toucher."]
+    },
+    {
+      "id": "fr-fait-main",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:fait main|fait à la main|artisanal\\p{L}*|(?:fabriqué|créé|conçu)e?s? avec amour)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "The item is printed to order, not made by hand.",
+      "example": "Un mug fait main pour votre bureau.",
+      "rewrite": "Un mug imprimé pour votre bureau.",
+      "falsePositives": ["Un sac à main imprimé."]
+    },
+    {
+      "id": "fr-dessine-a-la-main",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:dessiné|peint)e?s? à la main)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Can be true of the original artwork, so it counts only next to other signs.",
+      "example": "Un tournesol dessiné à la main.",
+      "rewrite": "Un tournesol en traits fins.",
+      "falsePositives": ["Un sac à main peint en bleu."]
+    },
+    {
+      "id": "fr-important-de-noter",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:il est important de noter|il convient de souligner)(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Announces a point instead of making it.",
+      "example": "Il est important de noter que l'impression résiste au lave-vaisselle.",
+      "rewrite": "L'impression résiste au lave-vaisselle."
+    },
+    {
+      "id": "fr-en-outre",
+      "kind": "regex",
+      "match": "(?<=^|[.!?]\\s+|\\n)(?:en outre|de surcroît),",
+      "category": "filler",
+      "precision": "medium",
+      "why": "Essay connector a shop owner rarely uses.",
+      "example": "En outre, c'est un cadeau idéal.",
+      "rewrite": "Il existe aussi en blanc.",
+      "falsePositives": ["Il passe en outre-mer en 10 jours."]
+    },
+    {
+      "id": "fr-chat",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:j'espère que cela (?:vous|t')aide|voici (?:votre|ton) (?:annonce|texte))(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Words meant for the person who asked, not the buyer.",
+      "example": "Voici votre annonce pour le mug fantôme.",
+      "rewrite": "Un mug avec trois petits fantômes."
+    },
+    {
+      "id": "fr-toutes-occasions",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:parfaite? pour toutes les occasions)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Fits everything, so says nothing.",
+      "example": "Un motif joyeux, parfait pour toutes les occasions.",
+      "rewrite": "Un motif joyeux pour une cuisine ou une entrée."
+    },
+    {
+      "id": "fr-couper-le-souffle",
+      "kind": "phrase",
+      "match": "à couper le souffle",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Big praise with nothing behind it.",
+      "example": "Un design à couper le souffle.",
+      "rewrite": "Chaque plume du hibou est dessinée en traits fins."
+    },
+    {
+      "id": "fr-intemporel",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:intemporel\\p{L}*|incontournable\\p{L}*|pièce maîtresse)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Stock praise that fits any product.",
+      "example": "Une pièce maîtresse intemporelle pour votre salon.",
+      "rewrite": "Une affiche noir et blanc d'un vélo des années 50."
+    },
+    {
+      "id": "fr-sublime",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:sublim(?:e|es|era|ez)|magnifique\\p{L}*|parfaite?s?)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Opinion words; Etsy asks to keep these out of the title.",
+      "example": "Magnifique mug parfait pour Noël",
+      "rewrite": "Mug de Noël avec des rennes",
+      "falsePositives": ["Sublimation sur polyester."]
+    },
+    {
+      "id": "fr-veritable",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:(?:un|une) véritable)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Intensifier used as a label.",
+      "example": "Un véritable bijou pour votre intérieur.",
+      "rewrite": "Une affiche de citrons jaunes.",
+      "falsePositives": ["Cuir véritable sur la poignée."]
+    },
+    {
+      "id": "fr-stock-limite",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:stock limité|plus que quelques|dans la limite des stocks|ne tardez pas|offre limitée)(?![\\p{L}])",
+      "category": "urgency",
+      "precision": "high",
+      "why": "Printed to order, so it never runs out.",
+      "example": "Stock limité, ne tardez pas !",
+      "rewrite": "Chaque pièce est imprimée à la commande."
+    },
+    {
+      "id": "fr-commandez-des-maintenant",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:commandez(?:-le|-la)? dès maintenant|faites-vous plaisir)(?![\\p{L}])",
+      "category": "cliche-closer",
+      "precision": "medium",
+      "why": "Closing sales line that adds nothing.",
+      "example": "Faites-vous plaisir et commandez dès maintenant.",
+      "rewrite": "Il passe au lave-vaisselle."
+    }
+  ]
+}

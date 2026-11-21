@@ -1,0 +1,6380 @@
+{
+  "catMug": {
+    "query": "cat mug",
+    "resultsLabel": null,
+    "listingCount": 14,
+    "organicCount": 13,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.071,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "cat mug",
+      "listings": 8,
+      "shops": 8,
+      "ads": 1,
+      "share": 0.615,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "cat mug personalized",
+      "cat mug funny",
+      "cat mug for her",
+      "cat mom mug"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "cat lover",
+        "listings": 6,
+        "shops": 6,
+        "ads": 0,
+        "share": 0.462,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "cat lover gift",
+        "listings": 5,
+        "shops": 5,
+        "ads": 0,
+        "share": 0.385,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for her",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.308,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "funny cat mug",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.231,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "coffee mug",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.231,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "best cat dad ever",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "cat mom gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "cat mom mug",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "disney cat mug",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": true,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "fathers day gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for him",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "portrait mug",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalized",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.154,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Funny Cat Mug, Cat Lover Gift, Coffee Mug for Her, Cat Mom Gift, Gift for Her 11oz",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Cat Mom Mug - Funny Coffee Mug - Cat Lover Gift for Her - Birthday Gift",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Personalized Cat Mug, Custom Cat Portrait Mug, Cat Lover Gifts, Gift for Her",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Cat Lady Mug | Funny Cat Mugs | Gifts for Cat Lovers | Christmas Gift",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Cute Cat Coffee Mug, Cat Mom Gift, Mother's Day Gift for Mom",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Black Cat Mug, Spooky Halloween Mug, Witchy Gift for Her",
+        "shopName": "F",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Cat Mug Personalized, Pet Portrait Mug, Gift for Him or Her",
+        "shopName": "G",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Funny Cat Mug for Women, Cat Lover Gift Idea, Ceramic Coffee Cup 15oz",
+        "shopName": "H",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Cat Mom Mug, Cats Mom, Cat Lover Gift",
+        "shopName": "I",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Disney Cat Mug Marie Aristocats Gift",
+        "shopName": "J",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Disney Cat Mug Cheshire Gift",
+        "shopName": "K",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Best Cat Dad Ever Mug, Father's Day Gift, Gift for Dad",
+        "shopName": "L",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Best Cat Dad Ever Mug, Fathers Day Gift for Him",
+        "shopName": "M",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Cat Mug, Cat Mug, Cat Mug",
+        "shopName": "N",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "cat mug",
+      "cat mom mug",
+      "cat lover",
+      "cat lover gift",
+      "gift for her",
+      "funny cat mug",
+      "coffee mug",
+      "best cat dad ever",
+      "cat mom gift",
+      "fathers day gift",
+      "gift for him",
+      "portrait mug"
+    ],
+    "writerWords": [
+      {
+        "term": "cat mug",
+        "suggested": false,
+        "shops": 8
+      },
+      {
+        "term": "cat mom mug",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "cat lover",
+        "suggested": false,
+        "shops": 6
+      },
+      {
+        "term": "cat lover gift",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "gift for her",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "funny cat mug",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "coffee mug",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "best cat dad ever",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "cat mom gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "fathers day gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "gift for him",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "portrait mug",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalized",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "katzenTasse": {
+    "query": "katzen tasse",
+    "resultsLabel": null,
+    "listingCount": 8,
+    "organicCount": 8,
+    "prices": {
+      "currency": "EUR",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "katzen tasse",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 0.25,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "katzen tasse personalisiert",
+      "katzen tasse lustig"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "geschenk",
+        "listings": 7,
+        "shops": 7,
+        "ads": 0,
+        "share": 0.875,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "katze",
+        "listings": 7,
+        "shops": 7,
+        "ads": 0,
+        "share": 0.875,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "tasse katze",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "katzenliebhaber",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.375,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenk für katzenliebhaber",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenk für sie",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "katzen tasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "katzenmama tasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenkidee",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "kaffeetasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "katzentasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "lustig",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalisiert",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Katzen Tasse personalisiert, Geschenk für Katzenliebhaber, Kaffeetasse mit Namen",
+        "shopName": "A",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Tasse Katze lustig - Geschenk für Sie - Katzenmama Tasse",
+        "shopName": "B",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Personalisierte Tasse Katze, Katzentasse, Geschenk für Frauen, Geschenkidee",
+        "shopName": "C",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Katzentasse mit Spruch, Geschenk für Katzenliebhaber, Tasse Katze",
+        "shopName": "D",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Katzenmama Tasse, Geschenk für Mama, Muttertagsgeschenk",
+        "shopName": "E",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Tassen mit Katzen, Katzen Tassen, Geschenke für Katzenliebhaber",
+        "shopName": "F",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Lustige Tasse Katze, Geschenk für Ihn, Geschenk für sie",
+        "shopName": "G",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Kaffeetasse Katze 330ml, Geschenkidee Weihnachten",
+        "shopName": "H",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "katzen tasse",
+      "tasse katze",
+      "geschenk für sie",
+      "katzenmama tasse",
+      "katzenliebhaber",
+      "geschenkidee",
+      "kaffeetasse",
+      "katzentasse"
+    ],
+    "writerWords": [
+      {
+        "term": "katzen tasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "tasse katze",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "geschenk für katzenliebhaber",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "geschenk für sie",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "katzenmama tasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "geschenk",
+        "suggested": false,
+        "shops": 7
+      },
+      {
+        "term": "katze",
+        "suggested": false,
+        "shops": 7
+      },
+      {
+        "term": "katzenliebhaber",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "geschenkidee",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "kaffeetasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "katzentasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "lustig",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalisiert",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "christmasSweatshirt": {
+    "query": "christmas sweatshirt",
+    "resultsLabel": null,
+    "listingCount": 10,
+    "organicCount": 10,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "christmas sweatshirt",
+      "listings": 10,
+      "shops": 10,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "christmas sweatshirt women",
+      "christmas sweatshirt funny",
+      "christmas sweatshirt vintage",
+      "christmas sweatshirt comfort colors"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "christmas sweatshirt",
+        "listings": 10,
+        "shops": 10,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas gift",
+        "listings": 5,
+        "shops": 5,
+        "ads": 0,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas crewneck",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "holiday",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for her",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.3,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "women",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.3,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas gift for her",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas sweatshirt women",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "family christmas shirts",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "merry christmas sweatshirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas shirts",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "family christmas shirts",
+        "adOnly": false
+      },
+      {
+        "term": "christmas sweater",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "family christmas",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "family christmas shirts",
+        "adOnly": false
+      },
+      {
+        "term": "merry christmas",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "merry christmas sweatshirt",
+        "adOnly": false
+      },
+      {
+        "term": "sweatshirt women",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.2,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": "christmas sweatshirt women",
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Christmas Sweatshirt, Womens Christmas Sweater, Christmas Gift for Her, Holiday Sweatshirt",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Merry Christmas Sweatshirt, Christmas Crewneck, Holiday Sweater, Christmas Gift",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Christmas Tree Sweatshirt, Cute Christmas Sweatshirt, Winter Sweatshirt, Xmas Gift for Her",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Funny Christmas Sweatshirt, Ugly Christmas Sweater, Family Christmas Shirts",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Vintage Christmas Sweatshirt, Retro Christmas Crewneck, Christmas Gift for Her",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Christmas Sweatshirt Women, Merry and Bright Sweatshirt, Holiday Crewneck",
+        "shopName": "F",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Gingerbread Christmas Sweatshirt, Cozy Christmas Crewneck, Christmas Gift",
+        "shopName": "G",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Comfort Colors Christmas Sweatshirt, Holly Jolly Sweatshirt, Christmas Gift for Mom",
+        "shopName": "H",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Merry Christmas Sweatshirt Women, Christmas Crewneck Sweatshirt, Holiday Gift",
+        "shopName": "I",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Christmas Sweatshirt, Santa Sweatshirt, Matching Family Christmas Shirts",
+        "shopName": "J",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "christmas sweatshirt",
+      "sweatshirt women",
+      "christmas gift",
+      "christmas crewneck",
+      "gift for her",
+      "christmas sweater",
+      "christmas shirts",
+      "merry christmas"
+    ],
+    "writerWords": [
+      {
+        "term": "christmas sweatshirt",
+        "suggested": false,
+        "shops": 10
+      },
+      {
+        "term": "christmas sweatshirt women",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "sweatshirt women",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "christmas gift",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "christmas crewneck",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "gift for her",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "christmas gift for her",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "family christmas shirts",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "merry christmas sweatshirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "christmas sweater",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "christmas shirts",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "merry christmas",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "holiday",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "women",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "christmasMug": {
+    "query": "christmas mug",
+    "resultsLabel": null,
+    "listingCount": 4,
+    "organicCount": 4,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "christmas mug",
+      "listings": 0,
+      "shops": 0,
+      "ads": 0,
+      "share": 0,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "christmas gift for her",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for her",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "christmas gift for her",
+        "adOnly": false
+      },
+      {
+        "term": "christmas gift",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "christmas gift for her",
+        "adOnly": false
+      },
+      {
+        "term": "mug",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Funny Christmas Gift for Her, Holiday Coffee Mug",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Cute Christmas Gift for Her, Snowman Mug",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Christmas Gift for Her, Reindeer Mug",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Personalized Christmas Gift for Her, Name Mug",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "christmas mug",
+      "gift for her"
+    ],
+    "writerWords": [
+      {
+        "term": "christmas mug",
+        "suggested": false,
+        "shops": 0
+      },
+      {
+        "term": "christmas gift for her",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "gift for her",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "mug",
+        "suggested": false,
+        "shops": 4
+      }
+    ]
+  },
+  "teacherMug": {
+    "query": "teacher mug",
+    "resultsLabel": null,
+    "listingCount": 9,
+    "organicCount": 9,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "teacher mug",
+      "listings": 6,
+      "shops": 6,
+      "ads": 0,
+      "share": 0.667,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "teacher mug personalized",
+      "teacher mug funny",
+      "teacher mugs gift"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "teacher gift",
+        "listings": 6,
+        "shops": 6,
+        "ads": 0,
+        "share": 0.667,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "teacher mug",
+        "listings": 6,
+        "shops": 6,
+        "ads": 0,
+        "share": 0.667,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "teacher appreciation",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.444,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mug gift for her",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "class of 2026",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for teacher",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "teacher appreciation gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "appreciation gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "teacher appreciation gift",
+        "adOnly": false
+      },
+      {
+        "term": "personalized",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Teacher Mug, Teacher Gift, Teacher Appreciation Gift, Mug Gift for Her",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Personalized Teacher Mug, Teacher Appreciation Gift, End of Year Teacher Gift",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Funny Teacher Mug, Teacher Life Mug, Back to School Teacher Gift",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Teacher Coffee Mug, Best Teacher Ever, Teacher Christmas Gift",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Custom Teacher Mug, Teacher Name Mug, Teacher Appreciation Week Gift",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Teacher Mug Personalized, Gift for Teacher, Thank You Teacher Gift",
+        "shopName": "F",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Teacher Appreciation Mug, Mug Gift for Her, Teacher Gift Idea",
+        "shopName": "G",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Class of 2026 Teacher Mug, Retirement Teacher Gift",
+        "shopName": "H",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Class of 2026 Mug, Graduation Gift for Teacher",
+        "shopName": "I",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "teacher mug",
+      "teacher gift",
+      "teacher appreciation",
+      "mug gift for her",
+      "class of 2026",
+      "gift for teacher",
+      "appreciation gift"
+    ],
+    "writerWords": [
+      {
+        "term": "teacher mug",
+        "suggested": false,
+        "shops": 6
+      },
+      {
+        "term": "teacher gift",
+        "suggested": false,
+        "shops": 6
+      },
+      {
+        "term": "teacher appreciation",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "mug gift for her",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "class of 2026",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "gift for teacher",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "teacher appreciation gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "appreciation gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalized",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "nikeShirt": {
+    "query": "Nike Shirt",
+    "resultsLabel": null,
+    "listingCount": 2,
+    "organicCount": 2,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "nike shirt",
+      "listings": 0,
+      "shops": 0,
+      "ads": 0,
+      "share": 0,
+      "suggested": false,
+      "trademark": true,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "tee",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Swoosh Tee",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Sport Tee",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [],
+    "writerWords": [
+      {
+        "term": "tee",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "mothersDayMug": {
+    "query": "Mother's Day Mug",
+    "resultsLabel": null,
+    "listingCount": 2,
+    "organicCount": 2,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "mothers day mug",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "mothers day mug",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Mother's Day Mug, Gift for Mom",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Mothers Day Mug Gift",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "mothers day mug"
+    ],
+    "writerWords": [
+      {
+        "term": "mothers day mug",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "gift",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "teacherAppreciation": {
+    "query": "teacher mug",
+    "resultsLabel": null,
+    "listingCount": 5,
+    "organicCount": 5,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "teacher mug",
+      "listings": 1,
+      "shops": 1,
+      "ads": 0,
+      "share": 0.2,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "teacher appreciation gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "appreciation gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "teacher appreciation gift",
+        "adOnly": false
+      },
+      {
+        "term": "teacher appreciation",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "teacher appreciation gift",
+        "adOnly": false
+      },
+      {
+        "term": "end of year",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "teacher gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Teacher Appreciation Gift, Teacher Mug",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Teacher Appreciation Gift, Teacher Tote",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Teacher Appreciation Gift, Pencil Sign",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Teacher Gift, End of Year Gift",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "End of Year Teacher Gift",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "teacher mug",
+      "end of year",
+      "teacher gift",
+      "appreciation gift"
+    ],
+    "writerWords": [
+      {
+        "term": "teacher mug",
+        "suggested": false,
+        "shops": 1
+      },
+      {
+        "term": "teacher appreciation gift",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "end of year",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "teacher gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "appreciation gift",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "dogMomShirt": {
+    "query": "dog mom shirt",
+    "resultsLabel": null,
+    "listingCount": 20,
+    "organicCount": 18,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.1,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "dog mom shirt",
+      "listings": 13,
+      "shops": 9,
+      "ads": 1,
+      "share": 0.722,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "dog mom shirt comfort colors",
+      "dog mom shirt custom",
+      "dog mom shirt personalized",
+      "dog mom shirt funny",
+      "dog mom sweatshirt"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "dog mom shirt",
+        "listings": 13,
+        "shops": 9,
+        "ads": 1,
+        "share": 0.722,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mom gift",
+        "listings": 6,
+        "shops": 5,
+        "ads": 1,
+        "share": 0.333,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog lover gift",
+        "listings": 5,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.278,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mama shirt",
+        "listings": 4,
+        "shops": 4,
+        "ads": 1,
+        "share": 0.222,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mama tee",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.167,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for her",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.167,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "disney dog mom shirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": true,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mom era shirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for dog mom",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mom sweatshirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.111,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mom t-shirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "funny dog mom",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mothers day gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "custom dog",
+        "listings": 3,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.167,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog ears",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog owner",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "crewneck",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "pet",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.111,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Dog Mom Shirt, Dog Mama T-Shirt, Gift for Dog Lover, Dog Mom Gift, Funny Dog Shirt",
+        "shopName": "PawPrintCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Dog Mom Sweatshirt, Dog Mama Crewneck, Dog Lover Gift for Her",
+        "shopName": "TeeHaven",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Personalized Dog Mom Shirt with Dog Names, Custom Dog Mom T Shirt, Mothers Day Gift",
+        "shopName": "CustomPawz",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Comfort Colors Dog Mom Shirt, Dog Mama Tee, Dog Lover Shirt, Gift for Her",
+        "shopName": "RetroThreads",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Dog Mom Shirt | Dog Lover Gift | Funny Dog Tshirt | Dog Owner Gift",
+        "shopName": "BarkBoutique",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Custom Dog Mom Shirt, Personalized Dog Ears Shirt, Dog Mom Gift, Pet Lover Gift",
+        "shopName": "CustomPawz",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Dog Mom Shirt, Cute Dog Mama Shirt, Dog Mom Gifts, Dog Lover Tee, Unisex Shirt",
+        "shopName": "PawPrintCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Retro Dog Mom T-Shirt, Vintage Dog Mama Shirt, Dog Lover Gift, Comfort Colors",
+        "shopName": "RetroThreads",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Dog Mom Shirt for Women, Dog Mama Shirt, Dog Owner Shirt, Pet Mom Gift",
+        "shopName": "ShirtNest",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Golden Retriever Mom Shirt, Dog Mom Shirt, Golden Retriever Gift",
+        "shopName": "GoldenDays",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Dog Mom Era Shirt, Funny Dog Mom Tee, In My Dog Mom Era Sweatshirt",
+        "shopName": "EraTees",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "In My Dog Mom Era Shirt, Dog Mom Gift, Dog Lover T-Shirt",
+        "shopName": "TrendyTeeLab",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Dog Mom Shirt, Dog Mom Gift, Dog Mama Shirt, Mothers Day Gift for Dog Mom",
+        "shopName": "HappyTailsShop",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Embroidered Dog Mom Sweatshirt, Custom Dog Ears Crewneck, Dog Mom Gift",
+        "shopName": "StitchHouse",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "15",
+        "title": "Dog Mom Shirt, Paw Print Shirt, Dog Lover Gift, Gift for Dog Mom, Bella Canvas",
+        "shopName": "ShirtNest",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "16",
+        "title": "Funny Dog Mom Shirt, Dog Mama Tee, Dog Lover Gift for Her, Gift for Wife",
+        "shopName": "BarkBoutique",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "17",
+        "title": "Dog Mom Shirt, Dog Mama Shirt, Dog Mom Tee",
+        "shopName": "GiftyGoods",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "18",
+        "title": "Custom Dog Mom Sweatshirt, Personalized Dog Mama Crewneck, Dog Mom Gift",
+        "shopName": "CustomPawz",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "19",
+        "title": "Disney Dog Mom Shirt Pluto Dog Mama Tee",
+        "shopName": "MouseFan",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "20",
+        "title": "Disney Dog Mom Shirt Lady and the Tramp",
+        "shopName": "MouseFan2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "dog mom shirt",
+      "dog mom sweatshirt",
+      "dog mom gift",
+      "dog lover gift",
+      "dog mama shirt",
+      "dog mama tee",
+      "gift for her",
+      "dog mom era shirt",
+      "gift for dog mom",
+      "dog mom t-shirt",
+      "funny dog mom",
+      "mothers day gift",
+      "custom dog"
+    ],
+    "writerWords": [
+      {
+        "term": "dog mom shirt",
+        "suggested": false,
+        "shops": 9
+      },
+      {
+        "term": "dog mom sweatshirt",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "dog mom gift",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "dog lover gift",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "dog mama shirt",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "dog mama tee",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "gift for her",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "dog mom era shirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "gift for dog mom",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "dog mom t-shirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "funny dog mom",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "mothers day gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "custom dog",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "dog ears",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "dog owner",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "crewneck",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "pet",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "bohoWallArt": {
+    "query": "boho wall art",
+    "resultsLabel": null,
+    "listingCount": 19,
+    "organicCount": 17,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.105,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "boho wall art",
+      "listings": 10,
+      "shops": 8,
+      "ads": 1,
+      "share": 0.588,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "boho wall art set of 3",
+      "boho wall art printable",
+      "boho wall art bedroom",
+      "boho wall art living room",
+      "boho wall art canvas"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "print",
+        "listings": 14,
+        "shops": 10,
+        "ads": 0,
+        "share": 0.824,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "boho wall art",
+        "listings": 10,
+        "shops": 8,
+        "ads": 1,
+        "share": 0.588,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mid century modern",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.235,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "wall art set",
+        "listings": 4,
+        "shops": 4,
+        "ads": 1,
+        "share": 0.235,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "poster",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.176,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "abstract boho wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "boho wall art prints",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "boho wall art set",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mid century modern wall",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "abstract boho wall",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "abstract boho wall art",
+        "adOnly": false
+      },
+      {
+        "term": "boho wall decor",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "century modern wall",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "mid century modern wall",
+        "adOnly": false
+      },
+      {
+        "term": "modern wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "mid century modern wall",
+        "adOnly": false
+      },
+      {
+        "term": "printable wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "boho prints",
+        "listings": 3,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.176,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "living room",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "neutral wall",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "download",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.118,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Boho Wall Art Set of 3, Neutral Boho Prints, Mid Century Modern Wall Art, Printable Wall Art",
+        "shopName": "PrintableNest",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Boho Wall Art Prints, Set of 3 Prints, Abstract Line Art, Neutral Wall Decor, Digital Download",
+        "shopName": "LineAndLeaf",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Boho Wall Decor, Sun and Moon Print, Boho Bedroom Decor, Printable Art",
+        "shopName": "SunMoonStudio",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Neutral Boho Wall Art, Abstract Boho Print, Living Room Wall Art, Instant Download",
+        "shopName": "PrintableNest",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Mid Century Modern Print Set of 6, Boho Gallery Wall Set, Neutral Wall Art",
+        "shopName": "GalleryWallCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Boho Wall Art, Terracotta Print, Abstract Shapes Poster, Bohemian Home Decor",
+        "shopName": "TerraPrints",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Boho Gallery Wall Set, Set of 9 Prints, Eclectic Wall Art, Printable Wall Art",
+        "shopName": "GalleryWallCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Abstract Boho Wall Art, Neutral Beige Print, Minimalist Wall Art, 16x20 Poster",
+        "shopName": "MinimalMood",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Boho Wall Art Set of 3, Botanical Line Drawing, Boho Living Room Decor",
+        "shopName": "LineAndLeaf",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Boho Rainbow Print, Nursery Wall Art, Boho Nursery Decor, Kids Room Print",
+        "shopName": "LittleBohoKids",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Boho Bathroom Wall Art Set of 3, Bathroom Prints, Funny Bathroom Signs",
+        "shopName": "BathroomGiggles",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Framed Boho Wall Art, Canvas Wall Art, Large Abstract Painting, Boho Decor",
+        "shopName": "CanvasCraftUS",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Boho Wall Art Prints Set, Mid Century Modern Art, Neutral Abstract Print",
+        "shopName": "ModernMuse",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Boho Arch Print, Abstract Boho Wall Art, Printable Boho Poster, 8x10 11x14",
+        "shopName": "ArchAndCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "15",
+        "title": "Boho Wall Hanging Macrame, Boho Wall Decor, Woven Wall Hanging",
+        "shopName": "KnotStudio",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "16",
+        "title": "Boho Wall Art, Boho Wall Art, Wall Art Boho",
+        "shopName": "AdShop1",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "17",
+        "title": "Printable Wall Art Set of 3 Boho Neutral",
+        "shopName": "AdShop2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "18",
+        "title": "Sun Print Boho Wall Art Celestial Decor",
+        "shopName": "SunMoonStudio",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "19",
+        "title": "Mid Century Modern Wall Art Set of 3 Boho Prints",
+        "shopName": "TerraPrints",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "boho wall art",
+      "wall art set",
+      "boho wall art set",
+      "living room",
+      "mid century modern",
+      "boho wall art prints",
+      "boho wall decor",
+      "printable wall art",
+      "boho prints",
+      "neutral wall",
+      "modern wall art"
+    ],
+    "writerWords": [
+      {
+        "term": "boho wall art",
+        "suggested": false,
+        "shops": 8
+      },
+      {
+        "term": "wall art set",
+        "suggested": true,
+        "shops": 4
+      },
+      {
+        "term": "boho wall art set",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "living room",
+        "suggested": true,
+        "shops": 2
+      },
+      {
+        "term": "mid century modern",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "abstract boho wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "boho wall art prints",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "mid century modern wall",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "boho wall decor",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "printable wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "boho prints",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "neutral wall",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "modern wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "print",
+        "suggested": false,
+        "shops": 10
+      },
+      {
+        "term": "poster",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "download",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "christmasOrnament": {
+    "query": "personalized christmas ornament",
+    "resultsLabel": null,
+    "listingCount": 18,
+    "organicCount": 16,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.111,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "personalized christmas ornament",
+      "listings": 2,
+      "shops": 2,
+      "ads": 1,
+      "share": 0.125,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "personalized christmas ornament 2026",
+      "personalized christmas ornament family",
+      "personalized christmas ornament baby",
+      "personalized christmas ornament dog",
+      "personalized christmas ornaments"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "personalized",
+        "listings": 15,
+        "shops": 11,
+        "ads": 2,
+        "share": 0.938,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas ornament",
+        "listings": 10,
+        "shops": 8,
+        "ads": 2,
+        "share": 0.625,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "ornament 2026",
+        "listings": 5,
+        "shops": 5,
+        "ads": 1,
+        "share": 0.313,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "name",
+        "listings": 4,
+        "shops": 4,
+        "ads": 1,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "first christmas",
+        "listings": 5,
+        "shops": 3,
+        "ads": 1,
+        "share": 0.313,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "custom",
+        "listings": 4,
+        "shops": 3,
+        "ads": 1,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "first christmas ornament 2026",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas ornament personalized",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalized christmas ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalized couple ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalized couple",
+        "listings": 3,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.188,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "couple ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "personalized couple ornament",
+        "adOnly": false
+      },
+      {
+        "term": "family ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "names ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "pet memorial",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "pet ornament",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "keepsake",
+        "listings": 3,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.188,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "decor",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "loss",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Personalized Christmas Ornament, Family Ornament 2026, Custom Name Ornament, Christmas Gift",
+        "shopName": "OrnamentLane",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Personalized Family Christmas Ornament 2026, Custom Family Names Ornament, Xmas Keepsake",
+        "shopName": "NorthPoleNames",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Baby's First Christmas Ornament 2026, Personalized Baby Ornament, New Baby Gift",
+        "shopName": "LittleKeepsakes",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "First Christmas Married Ornament, Personalized Couple Ornament, Mr and Mrs Ornament",
+        "shopName": "WeddingBellsCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Our First Christmas Ornament 2026, Personalized Couples Ornament, Engagement Gift",
+        "shopName": "WeddingBellsCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Personalized Dog Ornament, Custom Pet Ornament, Dog Christmas Ornament, Pet Memorial",
+        "shopName": "PawsAndPine",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Custom Pet Portrait Ornament, Personalized Cat Ornament, Pet Loss Gift",
+        "shopName": "PawsAndPine",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Personalized Christmas Ornament, Ceramic Ornament with Name, Christmas Tree Decor",
+        "shopName": "ClayAndCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Family Christmas Ornament Personalized, Family of 4 Ornament, Christmas Keepsake 2026",
+        "shopName": "NorthPoleNames",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Memorial Ornament, In Loving Memory Christmas Ornament, Sympathy Gift, Remembrance Ornament",
+        "shopName": "HeavenlyGifts",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Personalized Teacher Ornament 2026, Teacher Christmas Gift, Teacher Appreciation",
+        "shopName": "ApplePieTeach",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Wood Christmas Ornament Personalized, Rustic Family Ornament, Farmhouse Christmas Decor",
+        "shopName": "RusticPine",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Babys First Christmas Ornament, Baby Girl Ornament, Personalized Baby Keepsake",
+        "shopName": "LittleKeepsakes",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Personalized Christmas Ornament, Custom Ornament, Personalized Ornament, Name Ornament",
+        "shopName": "AdOrn",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "15",
+        "title": "First Christmas Ornament 2026 Personalized",
+        "shopName": "AdOrn2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "16",
+        "title": "Grandparents Ornament Personalized 2026, Grandkids Names Ornament",
+        "shopName": "GrandmaGifts",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "17",
+        "title": "Pet Memorial Ornament, Dog Loss Ornament, Personalized Pet Ornament",
+        "shopName": "HeavenlyGifts",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "18",
+        "title": "Personalized Couple Ornament, Our First Christmas Together 2026",
+        "shopName": "LoveNotesPrints",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "ornament 2026",
+      "christmas ornament",
+      "first christmas",
+      "personalized couple",
+      "christmas gift",
+      "family ornament",
+      "names ornament",
+      "pet memorial",
+      "pet ornament",
+      "couple ornament"
+    ],
+    "writerWords": [
+      {
+        "term": "personalized christmas ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "ornament 2026",
+        "suggested": true,
+        "shops": 5
+      },
+      {
+        "term": "christmas ornament",
+        "suggested": false,
+        "shops": 8
+      },
+      {
+        "term": "first christmas",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "first christmas ornament 2026",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalized couple ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalized couple",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "christmas gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "family ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "names ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "pet memorial",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "pet ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "couple ornament",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalized",
+        "suggested": false,
+        "shops": 11
+      },
+      {
+        "term": "name",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "custom",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "keepsake",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "decor",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "dog",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "loss",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "tasseLehrerin": {
+    "query": "tasse lehrerin",
+    "resultsLabel": null,
+    "listingCount": 15,
+    "organicCount": 14,
+    "prices": {
+      "currency": "EUR",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.067,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "tasse lehrerin",
+      "listings": 4,
+      "shops": 4,
+      "ads": 1,
+      "share": 0.286,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "tasse lehrerin personalisiert",
+      "tasse lehrerin abschied",
+      "tasse lehrerin mit namen",
+      "tasse lehrerin lustig"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "tasse",
+        "listings": 13,
+        "shops": 8,
+        "ads": 1,
+        "share": 0.929,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenk",
+        "listings": 11,
+        "shops": 7,
+        "ads": 1,
+        "share": 0.786,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "tasse lehrerin",
+        "listings": 4,
+        "shops": 4,
+        "ads": 1,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalisiert",
+        "listings": 6,
+        "shops": 4,
+        "ads": 1,
+        "share": 0.429,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "abschiedsgeschenk",
+        "listings": 5,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.357,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "abschied",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "lehrer",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "lehrerin geschenk",
+        "listings": 4,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenk lehrerin",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.214,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "namen",
+        "listings": 4,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "lehrerinnen",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.214,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geschenk für lehrerin",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "tasse für lehrer",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "tasse mit namen",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalisierte tasse",
+        "listings": 3,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.214,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "lehrerin tasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 1,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "grundschule",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "kaffeetasse",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "kita",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.143,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Tasse Lehrerin personalisiert, Geschenk für Lehrerin, Abschiedsgeschenk Kita, Kaffeetasse mit Namen",
+        "shopName": "DruckLiebe",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Lehrerin Tasse mit Namen, Abschiedsgeschenk Lehrerin, Danke Lehrerin Geschenk",
+        "shopName": "Tassenwerk",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Personalisierte Tasse für Lehrer, Lehrergeschenk Abschied, Geschenk Lehrerin Schulende",
+        "shopName": "DruckLiebe",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Tasse Beste Lehrerin der Welt, Geschenk für Lehrerin, Lehrerin Geschenk Abschied",
+        "shopName": "GeschenkeHaus",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Lehrerin Tasse, Lustige Tasse Lehrerin, Lehrer Geschenk, Kaffeebecher Lehrerin",
+        "shopName": "Becherei",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Erzieherin Tasse personalisiert, Abschiedsgeschenk Erzieherin, Kita Geschenk",
+        "shopName": "KitaKram",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Tasse Lehrerin, Abschiedsgeschenk Grundschule, Danke Lehrerin, Lehrerin Geschenke",
+        "shopName": "Tassenwerk",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Personalisierte Tasse Lehrerin mit Namen, Geschenk Lehrerin Abschied, Emaille Tasse",
+        "shopName": "EmailleEcke",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Geschenk Lehrerin, Tasse für Lehrerin, Beste Lehrerin, Lehrerinnen Tasse",
+        "shopName": "GeschenkeHaus",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Lehrerin Geschenk personalisiert, Tasse mit Spruch Lehrerin, Abschiedsgeschenke Lehrer",
+        "shopName": "SpruchReich",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Kaffeetasse Lehrerin, Lieblingslehrerin Tasse, Geschenkidee Lehrerin",
+        "shopName": "Becherei",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Tasse für Lehrer und Lehrerinnen, Dankeschön Lehrer, Abschied Grundschule 4. Klasse",
+        "shopName": "SchulZeit",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Lehrerin Tasse, Geschenk für Lehrerin, Tasse Lehrerin personalisiert",
+        "shopName": "AnzeigeShop",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Teacher Mug Personalized, Gift for Teacher, German Teacher Gift",
+        "shopName": "EnglishShop",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "15",
+        "title": "Tasse mit Namen Lehrerin, personalisierte Tassen, Geschenk Lehrerinnen",
+        "shopName": "DruckLiebe",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "tasse lehrerin",
+      "lehrerin geschenk",
+      "tasse für lehrer",
+      "tasse mit namen",
+      "abschiedsgeschenk",
+      "lehrerinnen",
+      "grundschule",
+      "kaffeetasse"
+    ],
+    "writerWords": [
+      {
+        "term": "tasse lehrerin",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "lehrerin geschenk",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "geschenk für lehrerin",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "tasse für lehrer",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "tasse mit namen",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "personalisierte tasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "tasse",
+        "suggested": false,
+        "shops": 8
+      },
+      {
+        "term": "geschenk",
+        "suggested": false,
+        "shops": 7
+      },
+      {
+        "term": "personalisiert",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "abschiedsgeschenk",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "abschied",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "lehrer",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "namen",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "lehrerinnen",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "grundschule",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "kaffeetasse",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "kita",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "fishingShirt": {
+    "query": "fishing shirt",
+    "resultsLabel": null,
+    "listingCount": 16,
+    "organicCount": 16,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "fishing shirt",
+      "listings": 12,
+      "shops": 5,
+      "ads": 0,
+      "share": 0.75,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "fishing shirt for men",
+      "fishing shirt funny",
+      "fishing shirts vintage",
+      "fishing shirt dad"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "fishing shirt",
+        "listings": 12,
+        "shops": 5,
+        "ads": 0,
+        "share": 0.75,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "fishing gift",
+        "listings": 14,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.875,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "funny fishing",
+        "listings": 14,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.875,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "reel cool dad shirt",
+        "listings": 13,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.813,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "fathers day gift",
+        "listings": 9,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.563,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "gift for dad",
+        "listings": 9,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.563,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "vintage fishing shirt",
+        "listings": 9,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.563,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "vintage fishing",
+        "listings": 9,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.563,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "vintage fishing shirt",
+        "adOnly": false
+      },
+      {
+        "term": "fishing tee",
+        "listings": 5,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.313,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "fisherman",
+        "listings": 8,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "bass",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.125,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift ",
+        "shopName": "VintageTeeVault",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Tee",
+        "shopName": "VintageTeeVault",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Top",
+        "shopName": "VintageTeeVault",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Unisex",
+        "shopName": "VintageTeeVault",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift ",
+        "shopName": "VintageTeeVault",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shopName": "VintageTeeVault2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shopName": "VintageTeeVault2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shopName": "VintageTeeVault2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shopName": "VintageTeeVault2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shopName": "RetroHubTees",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shopName": "RetroHubTees",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shopName": "RetroHubTees",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "13",
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shopName": "RetroHubTees",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "14",
+        "title": "Bass Fishing Shirt, Largemouth Bass Tee, Fishing Lover Gift",
+        "shopName": "BassPro Fans",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "15",
+        "title": "Fly Fishing Shirt, Trout Fishing Tee, Outdoor Gift for Him",
+        "shopName": "FlyLineCo",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "16",
+        "title": "Funny Fishing Shirt for Men, I Like Big Bass Shirt, Fishing Gift",
+        "shopName": "BassHumor",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "fishing shirt",
+      "fishing gift",
+      "funny fishing",
+      "reel cool dad shirt",
+      "fathers day gift",
+      "gift for dad",
+      "fishing tee",
+      "vintage fishing"
+    ],
+    "writerWords": [
+      {
+        "term": "fishing shirt",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "fishing gift",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "funny fishing",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "reel cool dad shirt",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "fathers day gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "gift for dad",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "vintage fishing shirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "fishing tee",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "vintage fishing",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "fisherman",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "bass",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "weddingWelcomeSign": {
+    "query": "wedding welcome sign",
+    "resultsLabel": null,
+    "listingCount": 12,
+    "organicCount": 4,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0.667,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "wedding welcome sign",
+      "listings": 3,
+      "shops": 3,
+      "ads": 6,
+      "share": 0.75,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "wedding welcome sign template",
+      "wedding welcome sign acrylic",
+      "wedding welcome sign custom",
+      "wedding welcome sign wood"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "welcome sign",
+        "listings": 4,
+        "shops": 4,
+        "ads": 6,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "wedding welcome sign",
+        "listings": 3,
+        "shops": 3,
+        "ads": 6,
+        "share": 0.75,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "wedding sign",
+        "listings": 2,
+        "shops": 2,
+        "ads": 8,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "template",
+        "listings": 2,
+        "shops": 2,
+        "ads": 3,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "wedding welcome sign template",
+        "listings": 0,
+        "shops": 0,
+        "ads": 2,
+        "share": 0,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": true
+      },
+      {
+        "term": "acrylic wedding",
+        "listings": 0,
+        "shops": 0,
+        "ads": 2,
+        "share": 0,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": true
+      },
+      {
+        "term": "custom wedding",
+        "listings": 0,
+        "shops": 0,
+        "ads": 2,
+        "share": 0,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": true
+      },
+      {
+        "term": "sign template",
+        "listings": 0,
+        "shops": 0,
+        "ads": 3,
+        "share": 0,
+        "suggested": true,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": true
+      },
+      {
+        "term": "wedding decor",
+        "listings": 0,
+        "shops": 0,
+        "ads": 2,
+        "share": 0,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": true
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Wedding Welcome Sign Template, Editable Welcome Sign, Minimalist Wedding Sign, Canva Template",
+        "shopName": "AdSigns",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Welcome to Our Wedding Sign, Custom Wedding Sign, Acrylic Wedding Sign",
+        "shopName": "AdAcrylic",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Wedding Welcome Sign, Personalized Wedding Sign, Wedding Decor",
+        "shopName": "AdDecor",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Acrylic Wedding Welcome Sign, Clear Acrylic Sign, Modern Wedding Sign",
+        "shopName": "AdAcrylic2",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Wedding Welcome Sign Printable, Wedding Sign Template, Instant Download",
+        "shopName": "AdPrint",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Custom Wedding Welcome Sign, Wood Wedding Sign, Rustic Wedding Decor",
+        "shopName": "AdWood",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Wedding Welcome Sign Template Editable Boho Wedding Sign",
+        "shopName": "AdBoho",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Welcome Wedding Sign Large Foam Board Print",
+        "shopName": "AdFoam",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": true,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "9",
+        "title": "Wedding Welcome Sign, Canva Template, Modern Minimalist",
+        "shopName": "SignStudio",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "10",
+        "title": "Rustic Wedding Welcome Sign, Wood Sign, Barn Wedding",
+        "shopName": "BarnBride",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "11",
+        "title": "Floral Wedding Welcome Sign, Watercolor Wedding Sign Printable",
+        "shopName": "FloralInk",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "12",
+        "title": "Wedding Sign Bundle, Welcome Sign, Seating Chart Template",
+        "shopName": "BundleBox",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "wedding welcome sign",
+      "sign template",
+      "welcome sign",
+      "wedding sign",
+      "acrylic wedding",
+      "custom wedding",
+      "wedding decor"
+    ],
+    "writerWords": [
+      {
+        "term": "wedding welcome sign",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "wedding welcome sign template",
+        "suggested": true,
+        "shops": 0
+      },
+      {
+        "term": "sign template",
+        "suggested": true,
+        "shops": 0
+      },
+      {
+        "term": "welcome sign",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "wedding sign",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "acrylic wedding",
+        "suggested": false,
+        "shops": 0
+      },
+      {
+        "term": "custom wedding",
+        "suggested": false,
+        "shops": 0
+      },
+      {
+        "term": "wedding decor",
+        "suggested": false,
+        "shops": 0
+      },
+      {
+        "term": "template",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "teacherGift": {
+    "query": "teacher gift",
+    "resultsLabel": null,
+    "listingCount": 5,
+    "organicCount": 5,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "teacher gift",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 0.4,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "teacher appreciation gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "appreciation gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "teacher appreciation gift",
+        "adOnly": false
+      },
+      {
+        "term": "teacher appreciation",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "teacher appreciation gift",
+        "adOnly": false
+      },
+      {
+        "term": "end of year",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "teacher gift",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.4,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Teacher Appreciation Gift, Teacher Mug",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Teacher Appreciation Gift, Teacher Tote",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Teacher Appreciation Gift, Pencil Sign",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Teacher Gift, End of Year Gift",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "End of Year Teacher Gift",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "teacher gift",
+      "end of year",
+      "appreciation gift"
+    ],
+    "writerWords": [
+      {
+        "term": "teacher gift",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "teacher appreciation gift",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "end of year",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "appreciation gift",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "geschenkFuerMama": {
+    "query": "geschenk für mama",
+    "resultsLabel": null,
+    "listingCount": 8,
+    "organicCount": 8,
+    "prices": {
+      "currency": "EUR",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "geschenk für mama",
+      "listings": 5,
+      "shops": 5,
+      "ads": 0,
+      "share": 0.625,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [
+      "geschenk für mama personalisiert",
+      "geschenk für mama geburtstag",
+      "geschenk für mama weihnachten"
+    ],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "geschenk für mama",
+        "listings": 5,
+        "shops": 5,
+        "ads": 0,
+        "share": 0.625,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "tasse",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.5,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "muttertag",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.375,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "personalisiert",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.375,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "beste mama der welt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "muttertag geschenk",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "geburtstag",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "muttertagsgeschenk",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.25,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Personalisierte Tasse Mama, Geschenk für Mama, Muttertagsgeschenk",
+        "shopName": "A",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Mama Tasse mit Namen - Geschenk für Mama - Muttertag Geschenk",
+        "shopName": "B",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Beste Mama der Welt Tasse, Geschenk Mama Geburtstag",
+        "shopName": "C",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Mama Geschenk personalisiert, Muttertagsgeschenk, Tasse mit Spruch",
+        "shopName": "D",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Geschenk für Mama Weihnachten, Mama Kalender personalisiert",
+        "shopName": "E",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Beste Mama der Welt Kissen, Geschenk für Mama, Muttertag",
+        "shopName": "F",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Mama Armband, Geschenk für Mama zum Geburtstag, Schmuck",
+        "shopName": "G",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "8",
+        "title": "Personalisiertes Fotobuch Mama, Muttertag Geschenk",
+        "shopName": "H",
+        "price": 20,
+        "currency": "EUR",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "geschenk für mama",
+      "beste mama der welt",
+      "muttertag geschenk",
+      "geburtstag",
+      "muttertagsgeschenk"
+    ],
+    "writerWords": [
+      {
+        "term": "geschenk für mama",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "beste mama der welt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "muttertag geschenk",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "tasse",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "muttertag",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "personalisiert",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "geburtstag",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "muttertagsgeschenk",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "mugGiftForHer": {
+    "query": "mug",
+    "resultsLabel": null,
+    "listingCount": 5,
+    "organicCount": 5,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "mug",
+      "listings": 5,
+      "shops": 5,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "gift for her",
+        "listings": 5,
+        "shops": 5,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mug",
+        "listings": 5,
+        "shops": 5,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mug gift for her",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 0.6,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Ceramic Mug Gift for Her",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Coffee Mug Gift for Her",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Funny Mug Gift for Her",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Christmas Gift for Her Mug",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Birthday Gift for Her, Mug",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "gift for her",
+      "mug gift for her"
+    ],
+    "writerWords": [
+      {
+        "term": "mug",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "gift for her",
+        "suggested": false,
+        "shops": 5
+      },
+      {
+        "term": "mug gift for her",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "mugBeforeGiftForHer": {
+    "query": "mug",
+    "resultsLabel": null,
+    "listingCount": 3,
+    "organicCount": 3,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "mug",
+      "listings": 3,
+      "shops": 3,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "mug gift for her",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Floral Mug Gift for Her",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Ceramic Mug Gift for Her",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Mug Gift for Her Christmas",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "mug gift for her"
+    ],
+    "writerWords": [
+      {
+        "term": "mug",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "mug gift for her",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "ornamentChristmasGift": {
+    "query": "ornament",
+    "resultsLabel": null,
+    "listingCount": 3,
+    "organicCount": 3,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "ornament",
+      "listings": 3,
+      "shops": 3,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": "ornament christmas gift",
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "ornament christmas gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "christmas gift",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "ornament christmas gift",
+        "adOnly": false
+      },
+      {
+        "term": "ornament christmas",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "ornament christmas gift",
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Ornament Christmas Gift, Family Ornament",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Glass Ornament Christmas Gift",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Wood Ornament Christmas Gift",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "christmas gift"
+    ],
+    "writerWords": [
+      {
+        "term": "ornament",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "ornament christmas gift",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "christmas gift",
+        "suggested": false,
+        "shops": 3
+      }
+    ]
+  },
+  "axolotlShirt": {
+    "query": "axolotl shirt",
+    "resultsLabel": null,
+    "listingCount": 3,
+    "organicCount": 3,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "axolotl shirt",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 0.667,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "kawaii axolotl shirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.667,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Kawaii Axolotl Shirt, Axolotl Lover Gift",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Cute Kawaii Axolotl Shirt",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Axolotl Tee",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "axolotl shirt",
+      "kawaii axolotl shirt"
+    ],
+    "writerWords": [
+      {
+        "term": "axolotl shirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "kawaii axolotl shirt",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "disneyMug": {
+    "query": "disney mug",
+    "resultsLabel": null,
+    "listingCount": 2,
+    "organicCount": 2,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "disney mug",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 1,
+      "suggested": false,
+      "trademark": true,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "disney mug",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": true,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Disney Mug Gift",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Disney Mug Cute",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [],
+    "writerWords": []
+  },
+  "setOfThree": {
+    "query": "wall art",
+    "resultsLabel": null,
+    "listingCount": 3,
+    "organicCount": 3,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "wall art",
+      "listings": 2,
+      "shops": 2,
+      "ads": 0,
+      "share": 0.667,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "art set of 3",
+        "listings": 3,
+        "shops": 3,
+        "ads": 0,
+        "share": 1,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "modern wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.667,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Modern Wall Art, Boho Art Set of 3",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Neutral Art Set of 3 | Modern Wall Art",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Kids Art Set of 3",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "wall art",
+      "art set of 3",
+      "modern wall art"
+    ],
+    "writerWords": [
+      {
+        "term": "wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "art set of 3",
+        "suggested": false,
+        "shops": 3
+      },
+      {
+        "term": "modern wall art",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  },
+  "midCenturyHyphens": {
+    "query": "mid century wall art",
+    "resultsLabel": null,
+    "listingCount": 7,
+    "organicCount": 7,
+    "prices": {
+      "currency": "USD",
+      "min": 20,
+      "median": 20,
+      "max": 20
+    },
+    "adShare": 0,
+    "topSellerShare": 0,
+    "badgeShare": 0,
+    "freeShippingShare": 0,
+    "queryTerm": {
+      "term": "mid-century wall art",
+      "listings": 0,
+      "shops": 0,
+      "ads": 0,
+      "share": 0,
+      "suggested": false,
+      "trademark": false,
+      "partOfLonger": null,
+      "adOnly": false
+    },
+    "suggestions": [],
+    "suggestionsAvailable": true,
+    "warnings": [],
+    "terms": [
+      {
+        "term": "mid-century modern",
+        "listings": 4,
+        "shops": 4,
+        "ads": 0,
+        "share": 0.571,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "mid-century modern wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "dog mom t-shirt",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "hand-drawn line art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "modern wall art",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": "mid-century modern wall art",
+        "adOnly": false
+      },
+      {
+        "term": "art print",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "poster",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      },
+      {
+        "term": "retro",
+        "listings": 2,
+        "shops": 2,
+        "ads": 0,
+        "share": 0.286,
+        "suggested": false,
+        "trademark": false,
+        "partOfLonger": null,
+        "adOnly": false
+      }
+    ],
+    "listings": [
+      {
+        "listingId": "1",
+        "title": "Mid-Century Modern Wall Art, Abstract Print",
+        "shopName": "A",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "2",
+        "title": "Mid Century Modern Wall Art Print, Retro Poster",
+        "shopName": "B",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "3",
+        "title": "Mid-Century Modern Poster, Hand-Drawn Line Art",
+        "shopName": "C",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "4",
+        "title": "Mid Century Modern Print, Hand Drawn Line Art",
+        "shopName": "D",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "5",
+        "title": "Retro Mid-Century Art Print, Boho Decor",
+        "shopName": "E",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "6",
+        "title": "Dog Mom T Shirt, Tshirt for Women, Art Shirt",
+        "shopName": "F",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      },
+      {
+        "listingId": "7",
+        "title": "Dog Mom T-Shirt, Cute Tee",
+        "shopName": "G",
+        "price": 20,
+        "currency": "USD",
+        "onSale": false,
+        "freeShipping": false,
+        "isAd": false,
+        "isTopSeller": false,
+        "badges": []
+      }
+    ],
+    "suggestedTags": [
+      "mid-century wall art",
+      "mid-century modern",
+      "dog mom t-shirt",
+      "hand-drawn line art",
+      "art print",
+      "modern wall art"
+    ],
+    "writerWords": [
+      {
+        "term": "mid-century wall art",
+        "suggested": false,
+        "shops": 0
+      },
+      {
+        "term": "mid-century modern",
+        "suggested": false,
+        "shops": 4
+      },
+      {
+        "term": "mid-century modern wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "dog mom t-shirt",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "hand-drawn line art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "art print",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "modern wall art",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "poster",
+        "suggested": false,
+        "shops": 2
+      },
+      {
+        "term": "retro",
+        "suggested": false,
+        "shops": 2
+      }
+    ]
+  }
+}

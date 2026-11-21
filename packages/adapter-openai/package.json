@@ -1,0 +1,17 @@
+{
+  "name": "@pod/adapter-openai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ChatGPT, DeepSeek and Kimi as the language model, and scene photos from OpenAI's image models.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-ai": "0.1.0",
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0",
+    "openai": "7.32.0"
+  }
+}

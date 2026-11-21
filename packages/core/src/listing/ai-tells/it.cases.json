@@ -1,0 +1,249 @@
+{
+  "language": "it",
+  "cases": [
+    {
+      "text": "Ecco una possibile descrizione per la tua cover:",
+      "hits": ["it-chat-ecco-descrizione"]
+    },
+    {
+      "text": "ECCO UNA DESCRIZIONE SEO PER IL TUO POSTER",
+      "hits": ["it-chat-ecco-descrizione"]
+    },
+    {
+      "text": "Ecco una versione con il nome sul retro.",
+      "misses": ["it-chat-ecco-descrizione"]
+    },
+    {
+      "text": "Posso anche adattare il testo per Instagram.",
+      "hits": ["it-chat-offerta-riscrittura"]
+    },
+    {
+      "text": "Spero che questa descrizione ti piaccia.",
+      "hits": ["it-chat-offerta-riscrittura"]
+    },
+    {
+      "text": "Assolutamente! Qui trovi titolo e tag.",
+      "hits": ["it-chat-certo-ecco"]
+    },
+    {
+      "text": "La tazza, certo, è lavabile. Ecco come.",
+      "misses": ["it-chat-certo-ecco"]
+    },
+    {
+      "text": "Scrivici a [inserisci email] per ordini speciali.",
+      "hits": ["it-segnaposto-parentesi"]
+    },
+    {
+      "text": "if(a.data[\"datawrapper-height\"]) return;",
+      "misses": ["it-segnaposto-parentesi"]
+    },
+    {
+      "text": "- **Materiale:** cotone 100%",
+      "hits": ["it-markdown-grassetto"]
+    },
+    {
+      "text": "Titolo\n### Dettagli",
+      "hits": ["it-markdown-titoletto"]
+    },
+    {
+      "text": "Elevare la tua routine non è mai stato così semplice.",
+      "hits": ["it-eleva-il-tuo"]
+    },
+    {
+      "text": "Questa stampa eleverà il tuo arredamento.",
+      "hits": ["it-eleva-il-tuo"]
+    },
+    {
+      "text": "porterà il tuo stile a un nuovo livello",
+      "hits": ["it-al-livello-successivo"]
+    },
+    {
+      "text": "Perché li amerai",
+      "hits": ["it-perche-lo-amerai"]
+    },
+    {
+      "text": "Di' addio alle tazze anonime e ciao alla tua nuova preferita.",
+      "hits": ["it-di-addio-e-benvenuto"]
+    },
+    {
+      "text": "Di’ addio alle tazze anonime e dai il benvenuto a questa.",
+      "hits": ["it-di-addio-e-benvenuto"]
+    },
+    {
+      "text": "Scopri l’eleganza del marmo rosa.",
+      "hits": ["it-scopri-la-magia"]
+    },
+    {
+      "text": "LASCIATI INCANTARE da questi colori.",
+      "hits": ["it-lasciati-conquistare"]
+    },
+    {
+      "text": "Ci siamo lasciati ispirare dai mosaici di Ravenna.",
+      "misses": ["it-lasciati-conquistare"]
+    },
+    {
+      "text": "Che tu stia lavorando o rilassandoti, questa felpa è comoda.",
+      "hits": ["it-che-tu-sia-o"]
+    },
+    {
+      "text": "Sia che tu sia alto o basso, la taglia è unica.",
+      "misses": ["it-che-tu-sia-o"]
+    },
+    {
+      "text": "Tazza 330 ml.\nImmagina di bere il caffè in rifugio.",
+      "hits": ["it-immagina-apertura"]
+    },
+    {
+      "text": "In un mondo in cui tutto corre, rallenta.",
+      "hits": ["it-in-un-mondo-dove"]
+    },
+    {
+      "text": "Freddo? Niente paura, c'è il plaid.",
+      "hits": ["it-domanda-e-risposta"]
+    },
+    {
+      "text": "Che stai aspettando? Ordinala!",
+      "hits": ["it-cosa-aspetti"]
+    },
+    {
+      "text": "Acquistala subito!",
+      "hits": ["it-ordina-ora"]
+    },
+    {
+      "text": "Ordinalo oggi stesso.",
+      "hits": ["it-ordina-ora"]
+    },
+    {
+      "text": "Aggiungile subito al carrello.",
+      "hits": ["it-aggiungilo-al-carrello"]
+    },
+    {
+      "text": "Rendi indimenticabile il loro grande giorno!",
+      "hits": ["it-rendi-speciale"]
+    },
+    {
+      "text": "Portala ovunque tu vada.",
+      "hits": ["it-sempre-con-te"]
+    },
+    {
+      "text": "Strapperà più di un sorriso.",
+      "hits": ["it-strappare-un-sorriso"]
+    },
+    {
+      "text": "Per un tocco in più di colore.",
+      "hits": ["it-un-tocco-di"]
+    },
+    {
+      "text": "Un design senza tempo.",
+      "hits": ["it-senza-tempo"]
+    },
+    {
+      "text": "Siamo rimasti senza tempo: spediamo domani.",
+      "misses": ["it-senza-tempo"]
+    },
+    {
+      "text": "Il tuo alleato perfetto per le giornate in ufficio.",
+      "hits": ["it-compagno-ideale"]
+    },
+    {
+      "text": "Trasforma ogni sorso in un momento di relax.",
+      "hits": ["it-trasforma-in"]
+    },
+    {
+      "text": "Una vera opera d’arte da indossare.",
+      "hits": ["it-piccolo-capolavoro"]
+    },
+    {
+      "text": "È il regalo ideale per la maestra.",
+      "hits": ["it-regalo-perfetto"]
+    },
+    {
+      "text": "Un’idea regalo originale per Natale.",
+      "hits": ["it-regalo-perfetto"]
+    },
+    {
+      "text": "Pensata per tutte le amanti dello yoga.",
+      "hits": ["it-per-chi-ama"]
+    },
+    {
+      "text": "Confezionata con amore nel nostro laboratorio.",
+      "hits": ["it-fatto-con-amore"]
+    },
+    {
+      "text": "Una cover che non passerà inosservata.",
+      "hits": ["it-non-passa-inosservato"]
+    },
+    {
+      "text": "Non e' solo una felpa, ma un modo di vivere la montagna.",
+      "hits": ["it-non-e-solo-x-e"]
+    },
+    {
+      "text": "Non solo bella ma anche resistente.",
+      "misses": ["it-non-e-solo-x-e"]
+    },
+    {
+      "text": "Più che un semplice cuscino.",
+      "hits": ["it-piu-di-un-semplice"]
+    },
+    {
+      "text": "Disponibile fino ad esaurimento scorte.",
+      "hits": ["it-scorte-limitate"]
+    },
+    {
+      "text": "Non fartela scappare!",
+      "hits": ["it-non-lasciartelo-sfuggire"]
+    },
+    {
+      "text": "Inoltre è leggera.\nInfine, va in lavatrice.",
+      "hits": ["it-inoltre-infine"]
+    },
+    {
+      "text": "Vale la pena ricordare che è stampata su ordinazione.",
+      "hits": ["it-e-importante-sottolineare"]
+    },
+    {
+      "text": "Insomma, una tazza come tante.",
+      "misses": ["it-in-conclusione"]
+    },
+    {
+      "text": "Scopri la collezione. Non esiti a contattarci per domande.",
+      "hits": ["it-registro-misto"]
+    },
+    {
+      "text": "Non esiti a contattarci. Le risponderemo entro un giorno.",
+      "misses": ["it-registro-misto"]
+    },
+    {
+      "text": "**Descrizione del prodotto:** tazza in ceramica",
+      "hits": ["it-etichette-titolo-descrizione"]
+    },
+    {
+      "text": "Morbida. Calda. Accogliente.",
+      "hits": ["it-frammenti-in-serie"]
+    },
+    {
+      "text": "Spedizione rapida 🚚",
+      "hits": ["it-emoji"]
+    },
+    {
+      "text": "Marchio Polartec® Delta™",
+      "misses": ["it-emoji"]
+    },
+    {
+      "text": "Tazza—regalo",
+      "hits": ["it-lineetta-em-dash"]
+    },
+    {
+      "text": "La scritta «Ancora un capitolo» è in corsivo.",
+      "hits": ["it-caporali"]
+    },
+    {
+      "text": "Piace a GRANDI E PICCINI.",
+      "hits": ["it-grandi-e-piccini"]
+    },
+    {
+      "text": "grandi e piccinissimi",
+      "misses": ["it-grandi-e-piccini"]
+    }
+  ]
+}

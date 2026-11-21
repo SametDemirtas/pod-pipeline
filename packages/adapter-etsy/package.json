@@ -1,0 +1,20 @@
+{
+  "name": "@pod/adapter-etsy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Etsy adapters: sign-in, shop settings and draft listings over the Open API v3, and market research on Etsy's search pages.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0",
+    "@pod/rules": "0.1.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}

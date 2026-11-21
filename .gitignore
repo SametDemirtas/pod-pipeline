@@ -1,0 +1,44 @@
+node_modules/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+.DS_Store
+
+# Local secrets and integration spikes
+.env
+.env.*
+!.env.example
+.etsy_token.json
+/spikes/
+/test/
+__pycache__/
+/test-results/
+/playwright-report/
+
+# Packaged builds
+release/
+
+# Real-ESRGAN, fetched with `npm run fetch:upscaler`
+apps/desktop/resources/upscaler/
+
+# Local notes
+/docs/
+
+# Databases, keys and certificates
+*.db
+*.db-*
+*.sqlite*
+*.pem
+*.p12
+*.key
+
+# The app's data folder, if POD_DATA_DIR points inside the checkout
+local-api.json
+secrets.json
+settings.json
+
+# Local code index
+.gbrain-owner.json
+.gbrain-owner-*.json
+.gbrain-source

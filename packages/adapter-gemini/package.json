@@ -1,0 +1,16 @@
+{
+  "name": "@pod/adapter-gemini",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gemini as the language model, and scene photos generated from product mockups with Gemini's image models.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-ai": "0.1.0",
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0"
+  }
+}

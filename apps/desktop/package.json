@@ -1,0 +1,52 @@
+{
+  "name": "@pod/desktop",
+  "productName": "POD Pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron shell: wires the core to its adapters and serves the UI.",
+  "author": "pod-pipeline contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/SametDemirtas/pod-pipeline#readme",
+  "bugs": {
+    "url": "https://github.com/SametDemirtas/pod-pipeline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SametDemirtas/pod-pipeline.git",
+    "directory": "apps/desktop"
+  },
+  "type": "module",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "dist": "npm run build && npm run build --workspace @pod/mcp && electron-builder --publish never",
+    "dist:dir": "npm run build && npm run build --workspace @pod/mcp && electron-builder --dir --publish never",
+    "release": "npm run build && npm run build --workspace @pod/mcp && electron-builder --publish always"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@pod/adapter-ai": "0.1.0",
+    "@pod/adapter-anthropic": "0.1.0",
+    "@pod/adapter-etsy": "0.1.0",
+    "@pod/adapter-file-hosts": "0.1.0",
+    "@pod/adapter-fs": "0.1.0",
+    "@pod/adapter-gemini": "0.1.0",
+    "@pod/adapter-http": "0.1.0",
+    "@pod/adapter-openai": "0.1.0",
+    "@pod/adapter-pinterest": "0.1.0",
+    "@pod/adapter-printful": "0.1.0",
+    "@pod/adapter-realesrgan": "0.1.0",
+    "@pod/adapter-sqlite": "0.1.0",
+    "@pod/contracts": "0.1.0",
+    "@pod/core": "0.1.0",
+    "@pod/rules": "0.1.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.9.3",
+    "electron-builder": "26.18.0",
+    "electron-vite": "6.0.0",
+    "vite": "8.3.4",
+    "zod": "4.6.7"
+  }
+}

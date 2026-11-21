@@ -1,0 +1,42 @@
+html {
+  color-scheme: light dark;
+}
+
+html,
+body {
+  margin: 0;
+  background: Canvas;
+}
+
+/*
+ * Buttons that keep keyboard focus while unavailable use aria-disabled, which
+ * Radix leaves unstyled; they get its disabled look, variant by variant.
+ */
+.rt-BaseButton[aria-disabled='true'] {
+  color: var(--gray-a8);
+  background-color: var(--gray-a3);
+  background-image: none;
+  box-shadow: none;
+  filter: none;
+  cursor: var(--cursor-disabled);
+}
+
+.rt-BaseButton[aria-disabled='true']:where(.rt-variant-ghost) {
+  background-color: transparent;
+}
+
+.rt-BaseButton[aria-disabled='true']:where(.rt-variant-outline) {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px var(--gray-a7);
+}
+
+.rt-BaseButton[aria-disabled='true']:where(.rt-variant-surface) {
+  background-color: var(--gray-a2);
+  box-shadow: inset 0 0 0 1px var(--gray-a6);
+}
+
+/* Switches, checkboxes and selects that keep focus while a change saves look unavailable too. */
+:is(.rt-SwitchRoot, .rt-BaseCheckboxRoot, .rt-SelectTrigger)[aria-disabled='true'] {
+  opacity: 0.6;
+  cursor: var(--cursor-disabled);
+}

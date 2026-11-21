@@ -1,0 +1,16 @@
+{
+  "name": "@pod/adapter-fs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "File system adapters: folder scanning, hashing, image inspection and the asset store.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./testing": "./src/testing/index.ts"
+  },
+  "dependencies": {
+    "@pod/core": "0.1.0",
+    "image-size": "2.0.4"
+  }
+}

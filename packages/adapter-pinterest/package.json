@@ -1,0 +1,15 @@
+{
+  "name": "@pod/adapter-pinterest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinterest API v5 adapters: sign-in, boards and pins.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0"
+  }
+}

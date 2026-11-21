@@ -1,0 +1,14 @@
+{
+  "name": "@pod/rules",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pure business rules shared by the core, the desktop app, its UI and the MCP server.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/contracts": "0.1.0"
+  }
+}

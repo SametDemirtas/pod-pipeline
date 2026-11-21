@@ -1,0 +1,71 @@
+# Packaging for macOS, Windows and Linux. The main process, preload script and
+# window are bundled by electron-vite, so the app ships no node_modules.
+appId: io.github.podpipeline.app
+productName: POD Pipeline
+copyright: Copyright © 2026 pod-pipeline contributors
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**
+  - package.json
+# The app runs the MCP server when started with `--mcp-server`; see Settings.
+extraResources:
+  - from: ../mcp/dist/index.js
+    to: mcp/index.js
+  # Real-ESRGAN and its models, fetched with `npm run fetch:upscaler -- <mac|win|linux>`.
+  - from: resources/upscaler/${os}
+    to: upscaler
+  - from: ../../THIRD_PARTY_NOTICES.md
+    to: THIRD_PARTY_NOTICES.md
+  - from: ../../LICENSE
+    to: LICENSE
+asar: true
+npmRebuild: false
+# Electron features the app does not need are switched off in the binary. AI assistants
+# start the bundled MCP server with `--mcp-server`, so the binary never runs as plain Node.
+electronFuses:
+  runAsNode: false
+  enableCookieEncryption: true
+  enableNodeOptionsEnvironmentVariable: false
+  enableNodeCliInspectArguments: false
+  enableEmbeddedAsarIntegrityValidation: true
+  onlyLoadAppFromAsar: true
+  # Changing fuses breaks the binary's ad-hoc signature; an unsigned Mac build needs a new one.
+  resetAdHocDarwinSignature: true
+artifactName: ${productName}-${version}-${os}-${arch}.${ext}
+
+mac:
+  category: public.app-category.productivity
+  target:
+    - target: dmg
+      arch: [arm64, x64]
+    - target: zip
+      arch: [arm64, x64]
+  hardenedRuntime: true
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  # Signed with the app's identity and hardened runtime like the app's own helpers; the
+  # upstream file carries only the linker's ad-hoc signature, which notarization refuses.
+  binaries:
+    - Contents/Resources/upscaler/realesrgan-ncnn-vulkan
+
+win:
+  target:
+    - target: nsis
+      arch: [x64, arm64]
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+
+linux:
+  executableName: pod-pipeline
+  category: Office
+  target:
+    - target: AppImage
+      arch: [x64]
+
+publish:
+  provider: github
+  releaseType: draft

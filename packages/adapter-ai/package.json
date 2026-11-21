@@ -1,0 +1,16 @@
+{
+  "name": "@pod/adapter-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Listing text, scene checks and scene styles written by any language model that answers in JSON.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0",
+    "@pod/rules": "0.1.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "pod-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Desktop app that turns print-on-demand artwork into Printful-fulfilled Etsy listings and Pinterest pins.",
+  "license": "MIT",
+  "homepage": "https://github.com/SametDemirtas/pod-pipeline#readme",
+  "bugs": {
+    "url": "https://github.com/SametDemirtas/pod-pipeline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SametDemirtas/pod-pipeline.git"
+  },
+  "type": "module",
+  "packageManager": "npm@11.19.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc -b",
+    "lint": "eslint .",
+    "knip": "knip",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "fetch:upscaler": "node scripts/fetch-upscaler.ts",
+    "notices": "node scripts/notices.ts",
+    "test:research-samples": "vitest run apps/desktop/src/main/application/research/research-samples.test.ts --update",
+    "check": "npm run format:check && npm run lint && npm run knip && npm run typecheck && npm run notices -- --check && npm run test",
+    "test:e2e": "npm run build --workspace @pod/desktop && npm run build --workspace @pod/mcp && playwright test"
+  },
+  "devDependencies": {
+    "@electron/asar": "3.4.1",
+    "@electron/fuses": "1.8.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "24.19.1",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint": "10.13.0",
+    "eslint-import-resolver-typescript": "4.4.5",
+    "eslint-plugin-boundaries": "7.2.1",
+    "globals": "17.13.0",
+    "knip": "6.44.1",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.0",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  },
+  "overrides": {
+    "vite": "8.3.4"
+  }
+}

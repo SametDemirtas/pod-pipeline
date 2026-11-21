@@ -1,0 +1,12 @@
+dist
+out
+coverage
+release
+node_modules
+spikes
+package-lock.json
+/test
+/test-results/
+/playwright-report/
+# Written by a test as a file snapshot
+packages/contracts/src/testing/research-reports.json

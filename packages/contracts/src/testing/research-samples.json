@@ -1,0 +1,993 @@
+{
+  "catMug": {
+    "query": "cat mug",
+    "market": "US",
+    "suggestions": ["cat mug personalized", "cat mug funny", "cat mug for her", "cat mom mug"],
+    "titles": [
+      {
+        "title": "Funny Cat Mug, Cat Lover Gift, Coffee Mug for Her, Cat Mom Gift, Gift for Her 11oz",
+        "shop": "A"
+      },
+      {
+        "title": "Cat Mom Mug - Funny Coffee Mug - Cat Lover Gift for Her - Birthday Gift",
+        "shop": "B"
+      },
+      {
+        "title": "Personalized Cat Mug, Custom Cat Portrait Mug, Cat Lover Gifts, Gift for Her",
+        "shop": "C"
+      },
+      {
+        "title": "Cat Lady Mug | Funny Cat Mugs | Gifts for Cat Lovers | Christmas Gift",
+        "shop": "D"
+      },
+      {
+        "title": "Cute Cat Coffee Mug, Cat Mom Gift, Mother's Day Gift for Mom",
+        "shop": "E"
+      },
+      {
+        "title": "Black Cat Mug, Spooky Halloween Mug, Witchy Gift for Her",
+        "shop": "F"
+      },
+      {
+        "title": "Cat Mug Personalized, Pet Portrait Mug, Gift for Him or Her",
+        "shop": "G"
+      },
+      {
+        "title": "Funny Cat Mug for Women, Cat Lover Gift Idea, Ceramic Coffee Cup 15oz",
+        "shop": "H"
+      },
+      {
+        "title": "Cat Mom Mug, Cats Mom, Cat Lover Gift",
+        "shop": "I"
+      },
+      {
+        "title": "Disney Cat Mug Marie Aristocats Gift",
+        "shop": "J"
+      },
+      {
+        "title": "Disney Cat Mug Cheshire Gift",
+        "shop": "K"
+      },
+      {
+        "title": "Best Cat Dad Ever Mug, Father's Day Gift, Gift for Dad",
+        "shop": "L"
+      },
+      {
+        "title": "Best Cat Dad Ever Mug, Fathers Day Gift for Him",
+        "shop": "M"
+      },
+      {
+        "title": "Cat Mug, Cat Mug, Cat Mug",
+        "shop": "N",
+        "isAd": true
+      }
+    ]
+  },
+  "katzenTasse": {
+    "query": "katzen tasse",
+    "market": "DE",
+    "suggestions": ["katzen tasse personalisiert", "katzen tasse lustig"],
+    "titles": [
+      {
+        "title": "Katzen Tasse personalisiert, Geschenk für Katzenliebhaber, Kaffeetasse mit Namen",
+        "shop": "A"
+      },
+      {
+        "title": "Tasse Katze lustig - Geschenk für Sie - Katzenmama Tasse",
+        "shop": "B"
+      },
+      {
+        "title": "Personalisierte Tasse Katze, Katzentasse, Geschenk für Frauen, Geschenkidee",
+        "shop": "C"
+      },
+      {
+        "title": "Katzentasse mit Spruch, Geschenk für Katzenliebhaber, Tasse Katze",
+        "shop": "D"
+      },
+      {
+        "title": "Katzenmama Tasse, Geschenk für Mama, Muttertagsgeschenk",
+        "shop": "E"
+      },
+      {
+        "title": "Tassen mit Katzen, Katzen Tassen, Geschenke für Katzenliebhaber",
+        "shop": "F"
+      },
+      {
+        "title": "Lustige Tasse Katze, Geschenk für Ihn, Geschenk für sie",
+        "shop": "G"
+      },
+      {
+        "title": "Kaffeetasse Katze 330ml, Geschenkidee Weihnachten",
+        "shop": "H"
+      }
+    ]
+  },
+  "christmasSweatshirt": {
+    "query": "christmas sweatshirt",
+    "market": "US",
+    "suggestions": [
+      "christmas sweatshirt women",
+      "christmas sweatshirt funny",
+      "christmas sweatshirt vintage",
+      "christmas sweatshirt comfort colors"
+    ],
+    "titles": [
+      {
+        "title": "Christmas Sweatshirt, Womens Christmas Sweater, Christmas Gift for Her, Holiday Sweatshirt",
+        "shop": "A"
+      },
+      {
+        "title": "Merry Christmas Sweatshirt, Christmas Crewneck, Holiday Sweater, Christmas Gift",
+        "shop": "B"
+      },
+      {
+        "title": "Christmas Tree Sweatshirt, Cute Christmas Sweatshirt, Winter Sweatshirt, Xmas Gift for Her",
+        "shop": "C"
+      },
+      {
+        "title": "Funny Christmas Sweatshirt, Ugly Christmas Sweater, Family Christmas Shirts",
+        "shop": "D"
+      },
+      {
+        "title": "Vintage Christmas Sweatshirt, Retro Christmas Crewneck, Christmas Gift for Her",
+        "shop": "E"
+      },
+      {
+        "title": "Christmas Sweatshirt Women, Merry and Bright Sweatshirt, Holiday Crewneck",
+        "shop": "F"
+      },
+      {
+        "title": "Gingerbread Christmas Sweatshirt, Cozy Christmas Crewneck, Christmas Gift",
+        "shop": "G"
+      },
+      {
+        "title": "Comfort Colors Christmas Sweatshirt, Holly Jolly Sweatshirt, Christmas Gift for Mom",
+        "shop": "H"
+      },
+      {
+        "title": "Merry Christmas Sweatshirt Women, Christmas Crewneck Sweatshirt, Holiday Gift",
+        "shop": "I"
+      },
+      {
+        "title": "Christmas Sweatshirt, Santa Sweatshirt, Matching Family Christmas Shirts",
+        "shop": "J"
+      }
+    ]
+  },
+  "christmasMug": {
+    "query": "christmas mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Funny Christmas Gift for Her, Holiday Coffee Mug",
+        "shop": "A"
+      },
+      {
+        "title": "Cute Christmas Gift for Her, Snowman Mug",
+        "shop": "B"
+      },
+      {
+        "title": "Christmas Gift for Her, Reindeer Mug",
+        "shop": "C"
+      },
+      {
+        "title": "Personalized Christmas Gift for Her, Name Mug",
+        "shop": "D"
+      }
+    ]
+  },
+  "teacherMug": {
+    "query": "teacher mug",
+    "market": "US",
+    "suggestions": ["teacher mug personalized", "teacher mug funny", "teacher mugs gift"],
+    "titles": [
+      {
+        "title": "Teacher Mug, Teacher Gift, Teacher Appreciation Gift, Mug Gift for Her",
+        "shop": "A"
+      },
+      {
+        "title": "Personalized Teacher Mug, Teacher Appreciation Gift, End of Year Teacher Gift",
+        "shop": "B"
+      },
+      {
+        "title": "Funny Teacher Mug, Teacher Life Mug, Back to School Teacher Gift",
+        "shop": "C"
+      },
+      {
+        "title": "Teacher Coffee Mug, Best Teacher Ever, Teacher Christmas Gift",
+        "shop": "D"
+      },
+      {
+        "title": "Custom Teacher Mug, Teacher Name Mug, Teacher Appreciation Week Gift",
+        "shop": "E"
+      },
+      {
+        "title": "Teacher Mug Personalized, Gift for Teacher, Thank You Teacher Gift",
+        "shop": "F"
+      },
+      {
+        "title": "Teacher Appreciation Mug, Mug Gift for Her, Teacher Gift Idea",
+        "shop": "G"
+      },
+      {
+        "title": "Class of 2026 Teacher Mug, Retirement Teacher Gift",
+        "shop": "H"
+      },
+      {
+        "title": "Class of 2026 Mug, Graduation Gift for Teacher",
+        "shop": "I"
+      }
+    ]
+  },
+  "nikeShirt": {
+    "query": "Nike Shirt",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Swoosh Tee",
+        "shop": "A"
+      },
+      {
+        "title": "Sport Tee",
+        "shop": "B"
+      }
+    ]
+  },
+  "mothersDayMug": {
+    "query": "Mother's Day Mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Mother's Day Mug, Gift for Mom",
+        "shop": "A"
+      },
+      {
+        "title": "Mothers Day Mug Gift",
+        "shop": "B"
+      }
+    ]
+  },
+  "teacherAppreciation": {
+    "query": "teacher mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Teacher Appreciation Gift, Teacher Mug",
+        "shop": "A"
+      },
+      {
+        "title": "Teacher Appreciation Gift, Teacher Tote",
+        "shop": "B"
+      },
+      {
+        "title": "Teacher Appreciation Gift, Pencil Sign",
+        "shop": "C"
+      },
+      {
+        "title": "Teacher Gift, End of Year Gift",
+        "shop": "D"
+      },
+      {
+        "title": "End of Year Teacher Gift",
+        "shop": "E"
+      }
+    ]
+  },
+  "dogMomShirt": {
+    "query": "dog mom shirt",
+    "market": "US",
+    "suggestions": [
+      "dog mom shirt comfort colors",
+      "dog mom shirt custom",
+      "dog mom shirt personalized",
+      "dog mom shirt funny",
+      "dog mom sweatshirt"
+    ],
+    "titles": [
+      {
+        "title": "Dog Mom Shirt, Dog Mama T-Shirt, Gift for Dog Lover, Dog Mom Gift, Funny Dog Shirt",
+        "shop": "PawPrintCo"
+      },
+      {
+        "title": "Dog Mom Sweatshirt, Dog Mama Crewneck, Dog Lover Gift for Her",
+        "shop": "TeeHaven"
+      },
+      {
+        "title": "Personalized Dog Mom Shirt with Dog Names, Custom Dog Mom T Shirt, Mothers Day Gift",
+        "shop": "CustomPawz"
+      },
+      {
+        "title": "Comfort Colors Dog Mom Shirt, Dog Mama Tee, Dog Lover Shirt, Gift for Her",
+        "shop": "RetroThreads"
+      },
+      {
+        "title": "Dog Mom Shirt | Dog Lover Gift | Funny Dog Tshirt | Dog Owner Gift",
+        "shop": "BarkBoutique"
+      },
+      {
+        "title": "Custom Dog Mom Shirt, Personalized Dog Ears Shirt, Dog Mom Gift, Pet Lover Gift",
+        "shop": "CustomPawz"
+      },
+      {
+        "title": "Dog Mom Shirt, Cute Dog Mama Shirt, Dog Mom Gifts, Dog Lover Tee, Unisex Shirt",
+        "shop": "PawPrintCo"
+      },
+      {
+        "title": "Retro Dog Mom T-Shirt, Vintage Dog Mama Shirt, Dog Lover Gift, Comfort Colors",
+        "shop": "RetroThreads"
+      },
+      {
+        "title": "Dog Mom Shirt for Women, Dog Mama Shirt, Dog Owner Shirt, Pet Mom Gift",
+        "shop": "ShirtNest"
+      },
+      {
+        "title": "Golden Retriever Mom Shirt, Dog Mom Shirt, Golden Retriever Gift",
+        "shop": "GoldenDays"
+      },
+      {
+        "title": "Dog Mom Era Shirt, Funny Dog Mom Tee, In My Dog Mom Era Sweatshirt",
+        "shop": "EraTees"
+      },
+      {
+        "title": "In My Dog Mom Era Shirt, Dog Mom Gift, Dog Lover T-Shirt",
+        "shop": "TrendyTeeLab"
+      },
+      {
+        "title": "Dog Mom Shirt, Dog Mom Gift, Dog Mama Shirt, Mothers Day Gift for Dog Mom",
+        "shop": "HappyTailsShop"
+      },
+      {
+        "title": "Embroidered Dog Mom Sweatshirt, Custom Dog Ears Crewneck, Dog Mom Gift",
+        "shop": "StitchHouse"
+      },
+      {
+        "title": "Dog Mom Shirt, Paw Print Shirt, Dog Lover Gift, Gift for Dog Mom, Bella Canvas",
+        "shop": "ShirtNest"
+      },
+      {
+        "title": "Funny Dog Mom Shirt, Dog Mama Tee, Dog Lover Gift for Her, Gift for Wife",
+        "shop": "BarkBoutique"
+      },
+      {
+        "title": "Dog Mom Shirt, Dog Mama Shirt, Dog Mom Tee",
+        "shop": "GiftyGoods",
+        "isAd": true
+      },
+      {
+        "title": "Custom Dog Mom Sweatshirt, Personalized Dog Mama Crewneck, Dog Mom Gift",
+        "shop": "CustomPawz",
+        "isAd": true
+      },
+      {
+        "title": "Disney Dog Mom Shirt Pluto Dog Mama Tee",
+        "shop": "MouseFan"
+      },
+      {
+        "title": "Disney Dog Mom Shirt Lady and the Tramp",
+        "shop": "MouseFan2"
+      }
+    ]
+  },
+  "bohoWallArt": {
+    "query": "boho wall art",
+    "market": "US",
+    "suggestions": [
+      "boho wall art set of 3",
+      "boho wall art printable",
+      "boho wall art bedroom",
+      "boho wall art living room",
+      "boho wall art canvas"
+    ],
+    "titles": [
+      {
+        "title": "Boho Wall Art Set of 3, Neutral Boho Prints, Mid Century Modern Wall Art, Printable Wall Art",
+        "shop": "PrintableNest"
+      },
+      {
+        "title": "Boho Wall Art Prints, Set of 3 Prints, Abstract Line Art, Neutral Wall Decor, Digital Download",
+        "shop": "LineAndLeaf"
+      },
+      {
+        "title": "Boho Wall Decor, Sun and Moon Print, Boho Bedroom Decor, Printable Art",
+        "shop": "SunMoonStudio"
+      },
+      {
+        "title": "Neutral Boho Wall Art, Abstract Boho Print, Living Room Wall Art, Instant Download",
+        "shop": "PrintableNest"
+      },
+      {
+        "title": "Mid Century Modern Print Set of 6, Boho Gallery Wall Set, Neutral Wall Art",
+        "shop": "GalleryWallCo"
+      },
+      {
+        "title": "Boho Wall Art, Terracotta Print, Abstract Shapes Poster, Bohemian Home Decor",
+        "shop": "TerraPrints"
+      },
+      {
+        "title": "Boho Gallery Wall Set, Set of 9 Prints, Eclectic Wall Art, Printable Wall Art",
+        "shop": "GalleryWallCo"
+      },
+      {
+        "title": "Abstract Boho Wall Art, Neutral Beige Print, Minimalist Wall Art, 16x20 Poster",
+        "shop": "MinimalMood"
+      },
+      {
+        "title": "Boho Wall Art Set of 3, Botanical Line Drawing, Boho Living Room Decor",
+        "shop": "LineAndLeaf"
+      },
+      {
+        "title": "Boho Rainbow Print, Nursery Wall Art, Boho Nursery Decor, Kids Room Print",
+        "shop": "LittleBohoKids"
+      },
+      {
+        "title": "Boho Bathroom Wall Art Set of 3, Bathroom Prints, Funny Bathroom Signs",
+        "shop": "BathroomGiggles"
+      },
+      {
+        "title": "Framed Boho Wall Art, Canvas Wall Art, Large Abstract Painting, Boho Decor",
+        "shop": "CanvasCraftUS"
+      },
+      {
+        "title": "Boho Wall Art Prints Set, Mid Century Modern Art, Neutral Abstract Print",
+        "shop": "ModernMuse"
+      },
+      {
+        "title": "Boho Arch Print, Abstract Boho Wall Art, Printable Boho Poster, 8x10 11x14",
+        "shop": "ArchAndCo"
+      },
+      {
+        "title": "Boho Wall Hanging Macrame, Boho Wall Decor, Woven Wall Hanging",
+        "shop": "KnotStudio"
+      },
+      {
+        "title": "Boho Wall Art, Boho Wall Art, Wall Art Boho",
+        "shop": "AdShop1",
+        "isAd": true
+      },
+      {
+        "title": "Printable Wall Art Set of 3 Boho Neutral",
+        "shop": "AdShop2",
+        "isAd": true
+      },
+      {
+        "title": "Sun Print Boho Wall Art Celestial Decor",
+        "shop": "SunMoonStudio"
+      },
+      {
+        "title": "Mid Century Modern Wall Art Set of 3 Boho Prints",
+        "shop": "TerraPrints"
+      }
+    ]
+  },
+  "christmasOrnament": {
+    "query": "personalized christmas ornament",
+    "market": "US",
+    "suggestions": [
+      "personalized christmas ornament 2026",
+      "personalized christmas ornament family",
+      "personalized christmas ornament baby",
+      "personalized christmas ornament dog",
+      "personalized christmas ornaments"
+    ],
+    "titles": [
+      {
+        "title": "Personalized Christmas Ornament, Family Ornament 2026, Custom Name Ornament, Christmas Gift",
+        "shop": "OrnamentLane"
+      },
+      {
+        "title": "Personalized Family Christmas Ornament 2026, Custom Family Names Ornament, Xmas Keepsake",
+        "shop": "NorthPoleNames"
+      },
+      {
+        "title": "Baby's First Christmas Ornament 2026, Personalized Baby Ornament, New Baby Gift",
+        "shop": "LittleKeepsakes"
+      },
+      {
+        "title": "First Christmas Married Ornament, Personalized Couple Ornament, Mr and Mrs Ornament",
+        "shop": "WeddingBellsCo"
+      },
+      {
+        "title": "Our First Christmas Ornament 2026, Personalized Couples Ornament, Engagement Gift",
+        "shop": "WeddingBellsCo"
+      },
+      {
+        "title": "Personalized Dog Ornament, Custom Pet Ornament, Dog Christmas Ornament, Pet Memorial",
+        "shop": "PawsAndPine"
+      },
+      {
+        "title": "Custom Pet Portrait Ornament, Personalized Cat Ornament, Pet Loss Gift",
+        "shop": "PawsAndPine"
+      },
+      {
+        "title": "Personalized Christmas Ornament, Ceramic Ornament with Name, Christmas Tree Decor",
+        "shop": "ClayAndCo"
+      },
+      {
+        "title": "Family Christmas Ornament Personalized, Family of 4 Ornament, Christmas Keepsake 2026",
+        "shop": "NorthPoleNames"
+      },
+      {
+        "title": "Memorial Ornament, In Loving Memory Christmas Ornament, Sympathy Gift, Remembrance Ornament",
+        "shop": "HeavenlyGifts"
+      },
+      {
+        "title": "Personalized Teacher Ornament 2026, Teacher Christmas Gift, Teacher Appreciation",
+        "shop": "ApplePieTeach"
+      },
+      {
+        "title": "Wood Christmas Ornament Personalized, Rustic Family Ornament, Farmhouse Christmas Decor",
+        "shop": "RusticPine"
+      },
+      {
+        "title": "Babys First Christmas Ornament, Baby Girl Ornament, Personalized Baby Keepsake",
+        "shop": "LittleKeepsakes"
+      },
+      {
+        "title": "Personalized Christmas Ornament, Custom Ornament, Personalized Ornament, Name Ornament",
+        "shop": "AdOrn",
+        "isAd": true
+      },
+      {
+        "title": "First Christmas Ornament 2026 Personalized",
+        "shop": "AdOrn2",
+        "isAd": true
+      },
+      {
+        "title": "Grandparents Ornament Personalized 2026, Grandkids Names Ornament",
+        "shop": "GrandmaGifts"
+      },
+      {
+        "title": "Pet Memorial Ornament, Dog Loss Ornament, Personalized Pet Ornament",
+        "shop": "HeavenlyGifts"
+      },
+      {
+        "title": "Personalized Couple Ornament, Our First Christmas Together 2026",
+        "shop": "LoveNotesPrints"
+      }
+    ]
+  },
+  "tasseLehrerin": {
+    "query": "tasse lehrerin",
+    "market": "DE",
+    "suggestions": [
+      "tasse lehrerin personalisiert",
+      "tasse lehrerin abschied",
+      "tasse lehrerin mit namen",
+      "tasse lehrerin lustig"
+    ],
+    "titles": [
+      {
+        "title": "Tasse Lehrerin personalisiert, Geschenk für Lehrerin, Abschiedsgeschenk Kita, Kaffeetasse mit Namen",
+        "shop": "DruckLiebe"
+      },
+      {
+        "title": "Lehrerin Tasse mit Namen, Abschiedsgeschenk Lehrerin, Danke Lehrerin Geschenk",
+        "shop": "Tassenwerk"
+      },
+      {
+        "title": "Personalisierte Tasse für Lehrer, Lehrergeschenk Abschied, Geschenk Lehrerin Schulende",
+        "shop": "DruckLiebe"
+      },
+      {
+        "title": "Tasse Beste Lehrerin der Welt, Geschenk für Lehrerin, Lehrerin Geschenk Abschied",
+        "shop": "GeschenkeHaus"
+      },
+      {
+        "title": "Lehrerin Tasse, Lustige Tasse Lehrerin, Lehrer Geschenk, Kaffeebecher Lehrerin",
+        "shop": "Becherei"
+      },
+      {
+        "title": "Erzieherin Tasse personalisiert, Abschiedsgeschenk Erzieherin, Kita Geschenk",
+        "shop": "KitaKram"
+      },
+      {
+        "title": "Tasse Lehrerin, Abschiedsgeschenk Grundschule, Danke Lehrerin, Lehrerin Geschenke",
+        "shop": "Tassenwerk"
+      },
+      {
+        "title": "Personalisierte Tasse Lehrerin mit Namen, Geschenk Lehrerin Abschied, Emaille Tasse",
+        "shop": "EmailleEcke"
+      },
+      {
+        "title": "Geschenk Lehrerin, Tasse für Lehrerin, Beste Lehrerin, Lehrerinnen Tasse",
+        "shop": "GeschenkeHaus"
+      },
+      {
+        "title": "Lehrerin Geschenk personalisiert, Tasse mit Spruch Lehrerin, Abschiedsgeschenke Lehrer",
+        "shop": "SpruchReich"
+      },
+      {
+        "title": "Kaffeetasse Lehrerin, Lieblingslehrerin Tasse, Geschenkidee Lehrerin",
+        "shop": "Becherei"
+      },
+      {
+        "title": "Tasse für Lehrer und Lehrerinnen, Dankeschön Lehrer, Abschied Grundschule 4. Klasse",
+        "shop": "SchulZeit"
+      },
+      {
+        "title": "Lehrerin Tasse, Geschenk für Lehrerin, Tasse Lehrerin personalisiert",
+        "shop": "AnzeigeShop",
+        "isAd": true
+      },
+      {
+        "title": "Teacher Mug Personalized, Gift for Teacher, German Teacher Gift",
+        "shop": "EnglishShop"
+      },
+      {
+        "title": "Tasse mit Namen Lehrerin, personalisierte Tassen, Geschenk Lehrerinnen",
+        "shop": "DruckLiebe"
+      }
+    ]
+  },
+  "fishingShirt": {
+    "query": "fishing shirt",
+    "market": "US",
+    "suggestions": [
+      "fishing shirt for men",
+      "fishing shirt funny",
+      "fishing shirts vintage",
+      "fishing shirt dad"
+    ],
+    "titles": [
+      {
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift ",
+        "shop": "VintageTeeVault"
+      },
+      {
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Tee",
+        "shop": "VintageTeeVault"
+      },
+      {
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Top",
+        "shop": "VintageTeeVault"
+      },
+      {
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift Unisex",
+        "shop": "VintageTeeVault"
+      },
+      {
+        "title": "Vintage Fishing Shirt, Funny Fishing T-Shirt, Fishing Gift for Dad, Reel Cool Dad Shirt, Fathers Day Gift ",
+        "shop": "VintageTeeVault"
+      },
+      {
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shop": "VintageTeeVault2"
+      },
+      {
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shop": "VintageTeeVault2"
+      },
+      {
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shop": "VintageTeeVault2"
+      },
+      {
+        "title": "Reel Cool Dad Shirt, Vintage Fishing Shirt, Funny Fishing Tee, Fisherman Gift for Dad, Fathers Day Fishing Gift",
+        "shop": "VintageTeeVault2"
+      },
+      {
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shop": "RetroHubTees"
+      },
+      {
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shop": "RetroHubTees"
+      },
+      {
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shop": "RetroHubTees"
+      },
+      {
+        "title": "Reel Cool Dad Shirt | Fishing Dad Shirt | Funny Fishing Gift | Fathers Day Gift | Vintage Fisherman Tee",
+        "shop": "RetroHubTees"
+      },
+      {
+        "title": "Bass Fishing Shirt, Largemouth Bass Tee, Fishing Lover Gift",
+        "shop": "BassPro Fans"
+      },
+      {
+        "title": "Fly Fishing Shirt, Trout Fishing Tee, Outdoor Gift for Him",
+        "shop": "FlyLineCo"
+      },
+      {
+        "title": "Funny Fishing Shirt for Men, I Like Big Bass Shirt, Fishing Gift",
+        "shop": "BassHumor"
+      }
+    ]
+  },
+  "weddingWelcomeSign": {
+    "query": "wedding welcome sign",
+    "market": "US",
+    "suggestions": [
+      "wedding welcome sign template",
+      "wedding welcome sign acrylic",
+      "wedding welcome sign custom",
+      "wedding welcome sign wood"
+    ],
+    "titles": [
+      {
+        "title": "Wedding Welcome Sign Template, Editable Welcome Sign, Minimalist Wedding Sign, Canva Template",
+        "shop": "AdSigns",
+        "isAd": true
+      },
+      {
+        "title": "Welcome to Our Wedding Sign, Custom Wedding Sign, Acrylic Wedding Sign",
+        "shop": "AdAcrylic",
+        "isAd": true
+      },
+      {
+        "title": "Wedding Welcome Sign, Personalized Wedding Sign, Wedding Decor",
+        "shop": "AdDecor",
+        "isAd": true
+      },
+      {
+        "title": "Acrylic Wedding Welcome Sign, Clear Acrylic Sign, Modern Wedding Sign",
+        "shop": "AdAcrylic2",
+        "isAd": true
+      },
+      {
+        "title": "Wedding Welcome Sign Printable, Wedding Sign Template, Instant Download",
+        "shop": "AdPrint",
+        "isAd": true
+      },
+      {
+        "title": "Custom Wedding Welcome Sign, Wood Wedding Sign, Rustic Wedding Decor",
+        "shop": "AdWood",
+        "isAd": true
+      },
+      {
+        "title": "Wedding Welcome Sign Template Editable Boho Wedding Sign",
+        "shop": "AdBoho",
+        "isAd": true
+      },
+      {
+        "title": "Welcome Wedding Sign Large Foam Board Print",
+        "shop": "AdFoam",
+        "isAd": true
+      },
+      {
+        "title": "Wedding Welcome Sign, Canva Template, Modern Minimalist",
+        "shop": "SignStudio"
+      },
+      {
+        "title": "Rustic Wedding Welcome Sign, Wood Sign, Barn Wedding",
+        "shop": "BarnBride"
+      },
+      {
+        "title": "Floral Wedding Welcome Sign, Watercolor Wedding Sign Printable",
+        "shop": "FloralInk"
+      },
+      {
+        "title": "Wedding Sign Bundle, Welcome Sign, Seating Chart Template",
+        "shop": "BundleBox"
+      }
+    ]
+  },
+  "teacherGift": {
+    "query": "teacher gift",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Teacher Appreciation Gift, Teacher Mug",
+        "shop": "A"
+      },
+      {
+        "title": "Teacher Appreciation Gift, Teacher Tote",
+        "shop": "B"
+      },
+      {
+        "title": "Teacher Appreciation Gift, Pencil Sign",
+        "shop": "C"
+      },
+      {
+        "title": "Teacher Gift, End of Year Gift",
+        "shop": "D"
+      },
+      {
+        "title": "End of Year Teacher Gift",
+        "shop": "E"
+      }
+    ]
+  },
+  "geschenkFuerMama": {
+    "query": "geschenk für mama",
+    "market": "DE",
+    "suggestions": [
+      "geschenk für mama personalisiert",
+      "geschenk für mama geburtstag",
+      "geschenk für mama weihnachten"
+    ],
+    "titles": [
+      {
+        "title": "Personalisierte Tasse Mama, Geschenk für Mama, Muttertagsgeschenk",
+        "shop": "A"
+      },
+      {
+        "title": "Mama Tasse mit Namen - Geschenk für Mama - Muttertag Geschenk",
+        "shop": "B"
+      },
+      {
+        "title": "Beste Mama der Welt Tasse, Geschenk Mama Geburtstag",
+        "shop": "C"
+      },
+      {
+        "title": "Mama Geschenk personalisiert, Muttertagsgeschenk, Tasse mit Spruch",
+        "shop": "D"
+      },
+      {
+        "title": "Geschenk für Mama Weihnachten, Mama Kalender personalisiert",
+        "shop": "E"
+      },
+      {
+        "title": "Beste Mama der Welt Kissen, Geschenk für Mama, Muttertag",
+        "shop": "F"
+      },
+      {
+        "title": "Mama Armband, Geschenk für Mama zum Geburtstag, Schmuck",
+        "shop": "G"
+      },
+      {
+        "title": "Personalisiertes Fotobuch Mama, Muttertag Geschenk",
+        "shop": "H"
+      }
+    ]
+  },
+  "mugGiftForHer": {
+    "query": "mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Ceramic Mug Gift for Her",
+        "shop": "A"
+      },
+      {
+        "title": "Coffee Mug Gift for Her",
+        "shop": "B"
+      },
+      {
+        "title": "Funny Mug Gift for Her",
+        "shop": "C"
+      },
+      {
+        "title": "Christmas Gift for Her Mug",
+        "shop": "D"
+      },
+      {
+        "title": "Birthday Gift for Her, Mug",
+        "shop": "E"
+      }
+    ]
+  },
+  "mugBeforeGiftForHer": {
+    "query": "mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Floral Mug Gift for Her",
+        "shop": "A"
+      },
+      {
+        "title": "Ceramic Mug Gift for Her",
+        "shop": "B"
+      },
+      {
+        "title": "Mug Gift for Her Christmas",
+        "shop": "C"
+      }
+    ]
+  },
+  "ornamentChristmasGift": {
+    "query": "ornament",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Ornament Christmas Gift, Family Ornament",
+        "shop": "A"
+      },
+      {
+        "title": "Glass Ornament Christmas Gift",
+        "shop": "B"
+      },
+      {
+        "title": "Wood Ornament Christmas Gift",
+        "shop": "C"
+      }
+    ]
+  },
+  "axolotlShirt": {
+    "query": "axolotl shirt",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Kawaii Axolotl Shirt, Axolotl Lover Gift",
+        "shop": "A"
+      },
+      {
+        "title": "Cute Kawaii Axolotl Shirt",
+        "shop": "B"
+      },
+      {
+        "title": "Axolotl Tee",
+        "shop": "C"
+      }
+    ]
+  },
+  "disneyMug": {
+    "query": "disney mug",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Disney Mug Gift",
+        "shop": "A"
+      },
+      {
+        "title": "Disney Mug Cute",
+        "shop": "B"
+      }
+    ]
+  },
+  "setOfThree": {
+    "query": "wall art",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Modern Wall Art, Boho Art Set of 3",
+        "shop": "A"
+      },
+      {
+        "title": "Neutral Art Set of 3 | Modern Wall Art",
+        "shop": "B"
+      },
+      {
+        "title": "Kids Art Set of 3",
+        "shop": "C"
+      }
+    ]
+  },
+  "midCenturyHyphens": {
+    "query": "mid century wall art",
+    "market": "US",
+    "suggestions": [],
+    "titles": [
+      {
+        "title": "Mid-Century Modern Wall Art, Abstract Print",
+        "shop": "A"
+      },
+      {
+        "title": "Mid Century Modern Wall Art Print, Retro Poster",
+        "shop": "B"
+      },
+      {
+        "title": "Mid-Century Modern Poster, Hand-Drawn Line Art",
+        "shop": "C"
+      },
+      {
+        "title": "Mid Century Modern Print, Hand Drawn Line Art",
+        "shop": "D"
+      },
+      {
+        "title": "Retro Mid-Century Art Print, Boho Decor",
+        "shop": "E"
+      },
+      {
+        "title": "Dog Mom T Shirt, Tshirt for Women, Art Shirt",
+        "shop": "F"
+      },
+      {
+        "title": "Dog Mom T-Shirt, Cute Tee",
+        "shop": "G"
+      }
+    ]
+  }
+}

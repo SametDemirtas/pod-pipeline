@@ -1,0 +1,277 @@
+{
+  "language": "de",
+  "version": 1,
+  "foldDiacritics": false,
+  "patterns": [
+    {
+      "id": "de-nicht-nur-sondern",
+      "kind": "phrase",
+      "match": "nicht nur … sondern",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Denies a claim nobody made so the real one sounds bigger.",
+      "example": "Diese Tasse ist nicht nur praktisch, sondern auch ein Statement.",
+      "rewrite": "Eine Tasse mit 325 ml und einem Fuchs auf beiden Seiten.",
+      "falsePositives": ["Nicht nur bei Regen. Sondern auch so."]
+    },
+    {
+      "id": "de-mehr-als-nur",
+      "kind": "phrase",
+      "match": "mehr als nur",
+      "category": "false-contrast",
+      "precision": "high",
+      "why": "Lifts the item above what it is instead of saying what it is.",
+      "example": "Mehr als nur ein Shirt: ein Lebensgefühl.",
+      "rewrite": "Ein schwarzes Shirt mit einer Katze auf der Brust.",
+      "falsePositives": ["Mehr als 300 ml passen hinein."]
+    },
+    {
+      "id": "de-tauch-ein",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:tauchen sie ein|tauche ein|tauch ein|eintauchen)(?![\\p{L}])",
+      "category": "cliche-opener",
+      "precision": "high",
+      "why": "Calque of dive into.",
+      "example": "Tauche ein in die Welt der Pilze.",
+      "rewrite": "Ein Druck mit sieben Pilzarten."
+    },
+    {
+      "id": "de-naechste-level",
+      "kind": "phrase",
+      "match": "nächste level",
+      "category": "hype",
+      "precision": "high",
+      "why": "Empty promise of improvement, carried over from English.",
+      "example": "Bring deinen Stil aufs nächste Level.",
+      "rewrite": "Ein Shirt mit einem Retro-Sonnenmotiv."
+    },
+    {
+      "id": "de-game-changer",
+      "kind": "phrase",
+      "match": "game-changer",
+      "category": "hype",
+      "precision": "high",
+      "why": "Advertising anglicism with no content.",
+      "example": "Diese Tasche ist ein echter Game-Changer.",
+      "rewrite": "Diese Tasche fasst einen Laptop und zwei Bücher."
+    },
+    {
+      "id": "de-revolutionaer",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:revolutionär|bahnbrechend|wegweisend)\\p{L}*",
+      "category": "hype",
+      "precision": "high",
+      "why": "Far too big a word for a printed item.",
+      "example": "Ein bahnbrechendes Design für deine Küche.",
+      "rewrite": "Ein Zitronenmotiv für deine Küche."
+    },
+    {
+      "id": "de-potenzial-entfesseln",
+      "kind": "phrase",
+      "match": "potenzial entfesseln",
+      "category": "hype",
+      "precision": "high",
+      "why": "Promise with no link to the item.",
+      "example": "Mit diesem Notizbuch kannst du dein Potenzial entfesseln.",
+      "rewrite": "Ein Notizbuch mit einer Bergskizze auf dem Umschlag."
+    },
+    {
+      "id": "de-unterstreicht",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:unterstreicht|verkörpert)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Gives the item a meaning instead of showing it.",
+      "example": "Das Motiv unterstreicht deine Liebe zur Natur.",
+      "rewrite": "Das Motiv zeigt einen Hirsch im Wald.",
+      "falsePositives": ["Unterstrichene Zeilen im Notizbuch."]
+    },
+    {
+      "id": "de-zeugnis",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])ein zeugnis (?:für|von|des|der|dafür)(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Inflated significance for an everyday item.",
+      "example": "Dieses Poster ist ein Zeugnis für deine Reiselust.",
+      "rewrite": "Dieses Poster zeigt eine Weltkarte in Pastellfarben.",
+      "falsePositives": ["Ein Zeugnis voller Einsen ziert die Vorderseite."]
+    },
+    {
+      "id": "de-dient-als",
+      "kind": "phrase",
+      "match": "dient als",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Avoids a plain ist.",
+      "example": "Die Tasse dient als tägliche Erinnerung.",
+      "rewrite": "Auf der Tasse steht Atme durch.",
+      "falsePositives": ["Sie dient bei 40 Grad gewaschen."]
+    },
+    {
+      "id": "de-perfekte-begleiter",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:der|die|das|dein|deine) perfekte begleiter(?:in)?(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "Stock phrase that fits any product.",
+      "example": "Der perfekte Begleiter für jeden Tag.",
+      "rewrite": "Für den Kaffee am Schreibtisch."
+    },
+    {
+      "id": "de-hauch-von",
+      "kind": "phrase",
+      "match": "ein hauch von",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Vague addition of magic or elegance.",
+      "example": "Ein Hauch von Magie für dein Zuhause.",
+      "rewrite": "Eine kleine Hexe auf einem Besen.",
+      "falsePositives": ["Hauchdünner Druck."]
+    },
+    {
+      "id": "de-handgemacht",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:handgemacht|handgefertigt)\\p{L}*",
+      "category": "hype",
+      "precision": "high",
+      "why": "The item is printed to order, not made by hand.",
+      "example": "Handgemachte Tasse mit Fuchsmotiv.",
+      "rewrite": "Bedruckte Tasse mit Fuchsmotiv."
+    },
+    {
+      "id": "de-handgezeichnet",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:handgezeichnet|handgemalt)\\p{L}*",
+      "category": "hype",
+      "precision": "medium",
+      "why": "Can be true of the original artwork, so it counts only next to other signs.",
+      "example": "Ein handgezeichnetes Fuchsmotiv.",
+      "rewrite": "Ein Fuchs in feinen Linien.",
+      "falsePositives": ["Handtuch mit Fuchsmotiv."]
+    },
+    {
+      "id": "de-mit-liebe",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:mit liebe (?:gemacht|gestaltet|gefertigt)|liebevoll (?:gestaltet|gefertigt))(?![\\p{L}])",
+      "category": "hype",
+      "precision": "high",
+      "why": "A feeling claimed about printing it cannot carry.",
+      "example": "Liebevoll gestaltet und mit Liebe gemacht.",
+      "rewrite": "Wird nach deiner Bestellung gedruckt."
+    },
+    {
+      "id": "de-heutigen-welt",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])in der heutigen (?:schnelllebigen|digitalen|modernen) welt(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Throat-clearing opener about the world, not the item.",
+      "example": "In der heutigen schnelllebigen Welt brauchen wir alle eine Pause.",
+      "rewrite": "Ein ruhiges Motiv: ein See im Morgennebel."
+    },
+    {
+      "id": "de-wichtig-zu-beachten",
+      "kind": "phrase",
+      "match": "es ist wichtig zu beachten",
+      "category": "filler",
+      "precision": "high",
+      "why": "Announces a point instead of making it.",
+      "example": "Es ist wichtig zu beachten, dass der Druck spülmaschinenfest ist.",
+      "rewrite": "Der Druck ist spülmaschinenfest."
+    },
+    {
+      "id": "de-darueber-hinaus",
+      "kind": "regex",
+      "match": "(?<=^|[.!?]\\s+|\\n)darüber hinaus",
+      "category": "filler",
+      "precision": "medium",
+      "why": "Essay connector a shop owner rarely uses.",
+      "example": "Darüber hinaus ist sie ein tolles Geschenk.",
+      "rewrite": "Es gibt sie auch in Weiß.",
+      "falsePositives": ["Die Tasse ragt nicht darüber hinaus."]
+    },
+    {
+      "id": "de-nahtlos",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:nahtlos|mühelos)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Adverbs of AI prose with no measurable meaning.",
+      "example": "Das Motiv fügt sich mühelos in jede Einrichtung ein.",
+      "rewrite": "Das gedeckte Grün passt zu Holz und weißen Wänden.",
+      "falsePositives": ["Nahtloses Strickmuster am Kragen."]
+    },
+    {
+      "id": "de-perfekt-jeden-anlass",
+      "kind": "phrase",
+      "match": "perfekt für jeden anlass",
+      "category": "vague-praise",
+      "precision": "high",
+      "why": "Fits everything, so says nothing.",
+      "example": "Ein fröhliches Motiv, perfekt für jeden Anlass.",
+      "rewrite": "Ein fröhliches Motiv für Küche oder Flur."
+    },
+    {
+      "id": "de-zeitlos",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:zeitlos\\p{L}*|unverzichtbar\\p{L}*|ein muss für)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Stock praise that fits any product.",
+      "example": "Ein zeitloses Design, ein Muss für jede Küche.",
+      "rewrite": "Ein Schwarz-Weiß-Druck eines Fahrrads aus den 50ern."
+    },
+    {
+      "id": "de-hingucker",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:ein echter hingucker|blickfang)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Common in human listings too; a tell only next to others.",
+      "example": "Dieses Poster ist ein echter Hingucker.",
+      "rewrite": "Das Poster zeigt einen roten Tiger auf Schwarz."
+    },
+    {
+      "id": "de-wunderschoen",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:wunderschön\\p{L}*|perfekt(?:e[mnrs]?)?)(?![\\p{L}])",
+      "category": "vague-praise",
+      "precision": "medium",
+      "why": "Opinion words; Etsy asks to keep these out of the title.",
+      "example": "Wunderschöne Tasse mit perfektem Motiv.",
+      "rewrite": "Tasse mit Pfingstrosen auf Hellgrün.",
+      "falsePositives": ["Perfektionisten-Tasse"]
+    },
+    {
+      "id": "de-nur-noch-wenige",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:nur noch wenige|solange der vorrat reicht|nur für kurze zeit|schnell zugreifen)(?![\\p{L}])",
+      "category": "urgency",
+      "precision": "high",
+      "why": "Printed to order, so it never runs out.",
+      "example": "Nur noch wenige verfügbar, also schnell zugreifen!",
+      "rewrite": "Jedes Stück wird nach deiner Bestellung gedruckt."
+    },
+    {
+      "id": "de-worauf-wartest-du",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])worauf wartest du noch(?![\\p{L}])",
+      "category": "cliche-closer",
+      "precision": "high",
+      "why": "Sales question as a closing line.",
+      "example": "Worauf wartest du noch? Bestell jetzt!",
+      "rewrite": "Die Tasse ist spülmaschinenfest."
+    },
+    {
+      "id": "de-chat-antwort",
+      "kind": "regex",
+      "match": "(?<![\\p{L}])(?:ich hoffe, das hilft|hier ist (?:dein|ihr) (?:listing|text|überarbeitete))(?![\\p{L}])",
+      "category": "filler",
+      "precision": "high",
+      "why": "Words meant for the person who asked, not the buyer.",
+      "example": "Hier ist dein Listing für die Geistertasse.",
+      "rewrite": "Eine Tasse mit drei kleinen Geistern."
+    }
+  ]
+}

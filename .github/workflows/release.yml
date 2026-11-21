@@ -1,0 +1,81 @@
+name: Release
+
+# Pushing a tag such as v0.1.0 builds the app on every platform and attaches
+# the installers to one draft GitHub release, which a maintainer then publishes.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  # Unit, end-to-end and packaged-app checks on every platform, as for a pull request.
+  checks:
+    uses: ./.github/workflows/ci.yml
+
+  draft:
+    needs: checks
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: The tag matches the app version
+        run: |
+          version="v$(node -p "require('./apps/desktop/package.json').version")"
+          test "$version" = "$GITHUB_REF_NAME" || { echo "Tag $GITHUB_REF_NAME, app $version"; exit 1; }
+      # One draft up front, so the three builds below upload to the same release.
+      # A re-run reuses the draft, but never uploads to a release already published.
+      - run: |
+          if draft="$(gh release view "$GITHUB_REF_NAME" --json isDraft -q .isDraft 2>/dev/null)"; then
+            test "$draft" = true || { echo "$GITHUB_REF_NAME is already published"; exit 1; }
+          else
+            gh release create "$GITHUB_REF_NAME" --draft --title "$GITHUB_REF_NAME" --verify-tag
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+
+  package:
+    needs: draft
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      # No npm cache here: this job holds a token that can write to the release.
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+      - run: npm ci
+      # Real-ESRGAN for this runner's system, checked against its pinned SHA-256.
+      - run: npm run fetch:upscaler
+      # electron-builder reads the App Store Connect key from a file.
+      - name: Apple notarization key
+        if: runner.os == 'macOS'
+        run: |
+          [ -n "$APPLE_API_KEY_CONTENT" ] || exit 0
+          printf '%s' "$APPLE_API_KEY_CONTENT" > "$RUNNER_TEMP/AuthKey.p8"
+          echo "APPLE_API_KEY=$RUNNER_TEMP/AuthKey.p8" >> "$GITHUB_ENV"
+        env:
+          APPLE_API_KEY_CONTENT: ${{ secrets.APPLE_API_KEY }}
+      - name: Build and upload the installers
+        run: npm run release --workspace @pod/desktop
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # All optional: without them the installers are unsigned.
+          CSC_LINK: ${{ runner.os == 'macOS' && secrets.MAC_CSC_LINK || '' }}
+          CSC_KEY_PASSWORD: ${{ runner.os == 'macOS' && secrets.MAC_CSC_KEY_PASSWORD || '' }}
+          WIN_CSC_LINK: ${{ secrets.WIN_CSC_LINK }}
+          WIN_CSC_KEY_PASSWORD: ${{ secrets.WIN_CSC_KEY_PASSWORD }}
+          APPLE_API_KEY_ID: ${{ secrets.APPLE_API_KEY_ID }}
+          APPLE_API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}

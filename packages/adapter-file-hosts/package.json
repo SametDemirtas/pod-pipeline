@@ -1,0 +1,16 @@
+{
+  "name": "@pod/adapter-file-hosts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Short-lived file sharing for print providers through Dropbox or S3-compatible storage.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@pod/adapter-http": "0.1.0",
+    "@pod/core": "0.1.0",
+    "aws4fetch": "1.0.20"
+  }
+}
