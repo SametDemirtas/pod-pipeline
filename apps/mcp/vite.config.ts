@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
-/** Bundles the server into one executable file with no runtime dependencies. */
+/** Bundles the server into one module with no runtime dependencies, which the app loads. */
 export default defineConfig({
   build: {
     ssr: 'src/index.ts',
@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      output: { entryFileNames: 'index.js', banner: '#!/usr/bin/env node' },
+      output: { entryFileNames: 'index.js' },
     },
   },
   ssr: { noExternal: true },

@@ -104,7 +104,10 @@ function checkMcp({ exe }: PackagedApp): Promise<void> {
     });
     server.stdout.on('data', (chunk: Buffer) => {
       output += chunk.toString();
-      if (!output.startsWith('{')) fail(`The MCP server wrote other text to stdout: ${output}`);
+      // Electron on Windows writes an empty line as it starts; MCP clients skip it.
+      if (!output.trimStart().startsWith('{') && output.trim() !== '') {
+        fail(`The MCP server wrote other text to stdout: ${output}`);
+      }
       if (!answered && output.includes('"serverInfo"')) {
         answered = true;
         clearTimeout(timer);
@@ -181,6 +184,15 @@ function removeLater(folder: string): void {
   }
 }
 
+/**
+ * Whether the app is signed with a developer identity. An unsigned build leaves its
+ * programs as they came, and only a signed app must have every program signed too.
+ */
+function isIdentitySigned(bundle: string): boolean {
+  const details = spawnSync('codesign', ['--display', '--verbose=2', bundle], { encoding: 'utf8' });
+  return details.status === 0 && details.stderr.includes('Authority=');
+}
+
 /** Architecture names as `lipo` prints them, by `process.arch`. */
 const LIPO_ARCHITECTURES: Readonly<Record<string, string>> = { arm64: 'arm64', x64: 'x86_64' };
 
@@ -198,10 +210,12 @@ function checkUpscaler({ resources }: PackagedApp): void {
     if (!existsSync(file)) fail(`Missing from the package: ${file}`);
   }
   if (process.platform !== 'darwin') return;
-  const signature = spawnSync('codesign', ['--verify', '--strict', '--verbose=2', program], {
-    encoding: 'utf8',
-  });
-  if (signature.status !== 0) fail(`The upscaling engine is not signed: ${signature.stderr}`);
+  if (isIdentitySigned(join(resources, '..', '..'))) {
+    const signature = spawnSync('codesign', ['--verify', '--strict', '--verbose=2', program], {
+      encoding: 'utf8',
+    });
+    if (signature.status !== 0) fail(`The upscaling engine is not signed: ${signature.stderr}`);
+  }
   const lipo = spawnSync('lipo', ['-info', program], { encoding: 'utf8' });
   const architecture = LIPO_ARCHITECTURES[process.arch] ?? process.arch;
   if (!lipo.stdout.split(/\s+/).includes(architecture)) {

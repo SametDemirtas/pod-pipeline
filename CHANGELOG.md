@@ -20,6 +20,10 @@ All notable changes are listed here. The project follows [Semantic Versioning](h
   other way round, instead of failing on the renamed fields; update the app and the MCP server
   together.
 
+### Fixed
+
+- The MCP server works on Windows. It used to end as soon as it started there.
+
 ## [0.1.0] - 2026-11-19
 
 First release.

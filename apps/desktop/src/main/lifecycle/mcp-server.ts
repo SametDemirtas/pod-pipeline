@@ -1,5 +1,7 @@
 import { mkdtempSync, rmSync } from 'node:fs';
+import { Socket } from 'node:net';
 import { join } from 'node:path';
+import type { Readable, Writable } from 'node:stream';
 import { pathToFileURL } from 'node:url';
 import { format } from 'node:util';
 import { app } from 'electron';
@@ -28,10 +30,27 @@ export async function runMcpServer(entry: string): Promise<void> {
   app.dock?.hide();
   app.disableHardwareAcceleration();
   app.setPath('userData', scratch);
-  process.stdin.once('close', () => {
+  const input = clientInput();
+  input.once('close', () => {
     exit(0);
   });
-  await import(pathToFileURL(entry).href);
+  const server = (await import(pathToFileURL(entry).href)) as McpServerModule;
+  await server.serveMcp(input, process.stdout);
+}
+
+/** What the bundled MCP server module exports. */
+interface McpServerModule {
+  serveMcp(input: Readable, output: Writable): Promise<void>;
+}
+
+/**
+ * The stream the client writes to. Electron on Windows gives its main process a stdin
+ * that ends at once, so there the pipe is opened again from its descriptor.
+ */
+function clientInput(): Readable {
+  return process.platform === 'win32'
+    ? new Socket({ fd: 0, readable: true, writable: false })
+    : process.stdin;
 }
 
 /** Best effort: on Windows a Chromium helper may still hold a file open. */
