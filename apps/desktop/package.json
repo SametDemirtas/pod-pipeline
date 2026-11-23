@@ -26,7 +26,7 @@
     "release": "npm run build && npm run build --workspace @pod/mcp && electron-builder --publish always"
   },
   "devDependencies": {
-    "@modelcontextprotocol/sdk": "1.32.1",
+    "@modelcontextprotocol/sdk": "1.32.2",
     "@pod/adapter-ai": "0.1.0",
     "@pod/adapter-anthropic": "0.1.0",
     "@pod/adapter-etsy": "0.1.0",
